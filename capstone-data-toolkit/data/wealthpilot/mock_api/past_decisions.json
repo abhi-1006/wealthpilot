@@ -1,0 +1,2202 @@
+[
+  {
+    "decision_id": "ASH-D-00000",
+    "applicant_id": "ASH-A-00037",
+    "decided_on": "2025-07-05",
+    "outcome": "declined",
+    "internal_grade": "A1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-002"
+  },
+  {
+    "decision_id": "ASH-D-00001",
+    "applicant_id": "ASH-A-00168",
+    "decided_on": "2026-02-12",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00002",
+    "applicant_id": "ASH-A-00225",
+    "decided_on": "2025-01-25",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-009"
+  },
+  {
+    "decision_id": "ASH-D-00003",
+    "applicant_id": "ASH-A-00117",
+    "decided_on": "2026-05-06",
+    "outcome": "declined",
+    "internal_grade": "A1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-012"
+  },
+  {
+    "decision_id": "ASH-D-00004",
+    "applicant_id": "ASH-A-00046",
+    "decided_on": "2025-12-25",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 0,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-012"
+  },
+  {
+    "decision_id": "ASH-D-00005",
+    "applicant_id": "ASH-A-00311",
+    "decided_on": "2026-04-27",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-005"
+  },
+  {
+    "decision_id": "ASH-D-00006",
+    "applicant_id": "ASH-A-00283",
+    "decided_on": "2024-12-15",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-009"
+  },
+  {
+    "decision_id": "ASH-D-00007",
+    "applicant_id": "ASH-A-00067",
+    "decided_on": "2025-08-02",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-015"
+  },
+  {
+    "decision_id": "ASH-D-00008",
+    "applicant_id": "ASH-A-00094",
+    "decided_on": "2025-11-15",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-019"
+  },
+  {
+    "decision_id": "ASH-D-00009",
+    "applicant_id": "ASH-A-00012",
+    "decided_on": "2026-03-05",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00010",
+    "applicant_id": "ASH-A-00103",
+    "decided_on": "2025-12-16",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00011",
+    "applicant_id": "ASH-A-00043",
+    "decided_on": "2026-06-21",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-016"
+  },
+  {
+    "decision_id": "ASH-D-00012",
+    "applicant_id": "ASH-A-00060",
+    "decided_on": "2026-01-10",
+    "outcome": "declined",
+    "internal_grade": "C2",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-005"
+  },
+  {
+    "decision_id": "ASH-D-00013",
+    "applicant_id": "ASH-A-00349",
+    "decided_on": "2025-10-29",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00014",
+    "applicant_id": "ASH-A-00173",
+    "decided_on": "2026-04-21",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00015",
+    "applicant_id": "ASH-A-00057",
+    "decided_on": "2026-05-17",
+    "outcome": "approved",
+    "internal_grade": "A2",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00016",
+    "applicant_id": "ASH-A-00250",
+    "decided_on": "2025-01-25",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-019"
+  },
+  {
+    "decision_id": "ASH-D-00017",
+    "applicant_id": "ASH-A-00281",
+    "decided_on": "2025-02-08",
+    "outcome": "approved",
+    "internal_grade": "A2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-007"
+  },
+  {
+    "decision_id": "ASH-D-00018",
+    "applicant_id": "ASH-A-00347",
+    "decided_on": "2025-07-25",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-012"
+  },
+  {
+    "decision_id": "ASH-D-00019",
+    "applicant_id": "ASH-A-00070",
+    "decided_on": "2025-10-14",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-015"
+  },
+  {
+    "decision_id": "ASH-D-00020",
+    "applicant_id": "ASH-A-00329",
+    "decided_on": "2025-03-16",
+    "outcome": "approved",
+    "internal_grade": "A2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-002"
+  },
+  {
+    "decision_id": "ASH-D-00021",
+    "applicant_id": "ASH-A-00130",
+    "decided_on": "2025-03-02",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-005"
+  },
+  {
+    "decision_id": "ASH-D-00022",
+    "applicant_id": "ASH-A-00330",
+    "decided_on": "2025-05-21",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-018"
+  },
+  {
+    "decision_id": "ASH-D-00023",
+    "applicant_id": "ASH-A-00313",
+    "decided_on": "2024-08-27",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00024",
+    "applicant_id": "ASH-A-00304",
+    "decided_on": "2025-04-03",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00025",
+    "applicant_id": "ASH-A-00332",
+    "decided_on": "2026-03-29",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-007"
+  },
+  {
+    "decision_id": "ASH-D-00026",
+    "applicant_id": "ASH-A-00139",
+    "decided_on": "2025-06-14",
+    "outcome": "declined",
+    "internal_grade": "D2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-003"
+  },
+  {
+    "decision_id": "ASH-D-00027",
+    "applicant_id": "ASH-A-00274",
+    "decided_on": "2026-02-04",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00028",
+    "applicant_id": "ASH-A-00049",
+    "decided_on": "2024-09-05",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-005"
+  },
+  {
+    "decision_id": "ASH-D-00029",
+    "applicant_id": "ASH-A-00228",
+    "decided_on": "2024-12-13",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 0,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00030",
+    "applicant_id": "ASH-A-00143",
+    "decided_on": "2025-05-19",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-001"
+  },
+  {
+    "decision_id": "ASH-D-00031",
+    "applicant_id": "ASH-A-00050",
+    "decided_on": "2025-01-30",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00032",
+    "applicant_id": "ASH-A-00016",
+    "decided_on": "2026-03-23",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00033",
+    "applicant_id": "ASH-A-00267",
+    "decided_on": "2024-11-03",
+    "outcome": "declined",
+    "internal_grade": "D1",
+    "approved_amount_inr": 500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-001"
+  },
+  {
+    "decision_id": "ASH-D-00034",
+    "applicant_id": "ASH-A-00121",
+    "decided_on": "2025-09-22",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00035",
+    "applicant_id": "ASH-A-00307",
+    "decided_on": "2024-08-11",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-016"
+  },
+  {
+    "decision_id": "ASH-D-00036",
+    "applicant_id": "ASH-A-00094",
+    "decided_on": "2024-09-06",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-009"
+  },
+  {
+    "decision_id": "ASH-D-00037",
+    "applicant_id": "ASH-A-00051",
+    "decided_on": "2026-03-30",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00038",
+    "applicant_id": "ASH-A-00222",
+    "decided_on": "2025-02-04",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-018"
+  },
+  {
+    "decision_id": "ASH-D-00039",
+    "applicant_id": "ASH-A-00310",
+    "decided_on": "2025-04-07",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00040",
+    "applicant_id": "ASH-A-00190",
+    "decided_on": "2024-10-03",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00041",
+    "applicant_id": "ASH-A-00185",
+    "decided_on": "2025-02-18",
+    "outcome": "withdrawn",
+    "internal_grade": "D1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-005"
+  },
+  {
+    "decision_id": "ASH-D-00042",
+    "applicant_id": "ASH-A-00315",
+    "decided_on": "2025-06-04",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 0,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00043",
+    "applicant_id": "ASH-A-00232",
+    "decided_on": "2025-06-29",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00044",
+    "applicant_id": "ASH-A-00345",
+    "decided_on": "2025-08-25",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-019"
+  },
+  {
+    "decision_id": "ASH-D-00045",
+    "applicant_id": "ASH-A-00181",
+    "decided_on": "2025-06-08",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-018"
+  },
+  {
+    "decision_id": "ASH-D-00046",
+    "applicant_id": "ASH-A-00112",
+    "decided_on": "2024-08-20",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00047",
+    "applicant_id": "ASH-A-00100",
+    "decided_on": "2025-09-28",
+    "outcome": "declined",
+    "internal_grade": "D2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00048",
+    "applicant_id": "ASH-A-00071",
+    "decided_on": "2025-01-17",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00049",
+    "applicant_id": "ASH-A-00152",
+    "decided_on": "2026-04-05",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00050",
+    "applicant_id": "ASH-A-00104",
+    "decided_on": "2026-02-17",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-015"
+  },
+  {
+    "decision_id": "ASH-D-00051",
+    "applicant_id": "ASH-A-00213",
+    "decided_on": "2026-03-29",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00052",
+    "applicant_id": "ASH-A-00191",
+    "decided_on": "2024-12-23",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00053",
+    "applicant_id": "ASH-A-00272",
+    "decided_on": "2026-02-24",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-001"
+  },
+  {
+    "decision_id": "ASH-D-00054",
+    "applicant_id": "ASH-A-00128",
+    "decided_on": "2025-05-29",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-016"
+  },
+  {
+    "decision_id": "ASH-D-00055",
+    "applicant_id": "ASH-A-00011",
+    "decided_on": "2025-01-16",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-009"
+  },
+  {
+    "decision_id": "ASH-D-00056",
+    "applicant_id": "ASH-A-00277",
+    "decided_on": "2025-01-19",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00057",
+    "applicant_id": "ASH-A-00040",
+    "decided_on": "2026-03-18",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00058",
+    "applicant_id": "ASH-A-00058",
+    "decided_on": "2025-12-28",
+    "outcome": "declined",
+    "internal_grade": "D2",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00059",
+    "applicant_id": "ASH-A-00306",
+    "decided_on": "2025-01-21",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00060",
+    "applicant_id": "ASH-A-00074",
+    "decided_on": "2025-10-25",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00061",
+    "applicant_id": "ASH-A-00080",
+    "decided_on": "2025-03-07",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-018"
+  },
+  {
+    "decision_id": "ASH-D-00062",
+    "applicant_id": "ASH-A-00058",
+    "decided_on": "2025-07-14",
+    "outcome": "declined",
+    "internal_grade": "D1",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00063",
+    "applicant_id": "ASH-A-00346",
+    "decided_on": "2025-07-15",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00064",
+    "applicant_id": "ASH-A-00297",
+    "decided_on": "2025-11-21",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-005"
+  },
+  {
+    "decision_id": "ASH-D-00065",
+    "applicant_id": "ASH-A-00054",
+    "decided_on": "2025-08-17",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00066",
+    "applicant_id": "ASH-A-00213",
+    "decided_on": "2025-05-04",
+    "outcome": "approved",
+    "internal_grade": "A2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-018"
+  },
+  {
+    "decision_id": "ASH-D-00067",
+    "applicant_id": "ASH-A-00339",
+    "decided_on": "2024-10-19",
+    "outcome": "withdrawn",
+    "internal_grade": "A1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-016"
+  },
+  {
+    "decision_id": "ASH-D-00068",
+    "applicant_id": "ASH-A-00108",
+    "decided_on": "2025-12-05",
+    "outcome": "declined",
+    "internal_grade": "C2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00069",
+    "applicant_id": "ASH-A-00208",
+    "decided_on": "2025-01-03",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-012"
+  },
+  {
+    "decision_id": "ASH-D-00070",
+    "applicant_id": "ASH-A-00180",
+    "decided_on": "2025-07-15",
+    "outcome": "declined",
+    "internal_grade": "D1",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00071",
+    "applicant_id": "ASH-A-00156",
+    "decided_on": "2025-11-17",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-003"
+  },
+  {
+    "decision_id": "ASH-D-00072",
+    "applicant_id": "ASH-A-00045",
+    "decided_on": "2025-10-21",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-019"
+  },
+  {
+    "decision_id": "ASH-D-00073",
+    "applicant_id": "ASH-A-00331",
+    "decided_on": "2025-10-26",
+    "outcome": "declined",
+    "internal_grade": "A1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00074",
+    "applicant_id": "ASH-A-00024",
+    "decided_on": "2024-10-28",
+    "outcome": "declined",
+    "internal_grade": "A1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00075",
+    "applicant_id": "ASH-A-00252",
+    "decided_on": "2025-04-28",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00076",
+    "applicant_id": "ASH-A-00099",
+    "decided_on": "2025-06-24",
+    "outcome": "withdrawn",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00077",
+    "applicant_id": "ASH-A-00269",
+    "decided_on": "2025-04-14",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 0,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00078",
+    "applicant_id": "ASH-A-00028",
+    "decided_on": "2025-02-05",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00079",
+    "applicant_id": "ASH-A-00190",
+    "decided_on": "2025-09-06",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00080",
+    "applicant_id": "ASH-A-00120",
+    "decided_on": "2026-01-11",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-009"
+  },
+  {
+    "decision_id": "ASH-D-00081",
+    "applicant_id": "ASH-A-00111",
+    "decided_on": "2025-11-13",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00082",
+    "applicant_id": "ASH-A-00224",
+    "decided_on": "2026-04-21",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-003"
+  },
+  {
+    "decision_id": "ASH-D-00083",
+    "applicant_id": "ASH-A-00322",
+    "decided_on": "2026-02-26",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00084",
+    "applicant_id": "ASH-A-00054",
+    "decided_on": "2026-04-29",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-002"
+  },
+  {
+    "decision_id": "ASH-D-00085",
+    "applicant_id": "ASH-A-00062",
+    "decided_on": "2026-01-24",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-009"
+  },
+  {
+    "decision_id": "ASH-D-00086",
+    "applicant_id": "ASH-A-00183",
+    "decided_on": "2025-02-17",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00087",
+    "applicant_id": "ASH-A-00119",
+    "decided_on": "2024-10-13",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00088",
+    "applicant_id": "ASH-A-00004",
+    "decided_on": "2026-06-27",
+    "outcome": "declined",
+    "internal_grade": "D2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00089",
+    "applicant_id": "ASH-A-00338",
+    "decided_on": "2026-02-24",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00090",
+    "applicant_id": "ASH-A-00185",
+    "decided_on": "2026-06-17",
+    "outcome": "declined",
+    "internal_grade": "D2",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-009"
+  },
+  {
+    "decision_id": "ASH-D-00091",
+    "applicant_id": "ASH-A-00016",
+    "decided_on": "2025-10-12",
+    "outcome": "withdrawn",
+    "internal_grade": "B1",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-016"
+  },
+  {
+    "decision_id": "ASH-D-00092",
+    "applicant_id": "ASH-A-00325",
+    "decided_on": "2026-03-27",
+    "outcome": "declined",
+    "internal_grade": "C2",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00093",
+    "applicant_id": "ASH-A-00260",
+    "decided_on": "2024-09-20",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-016"
+  },
+  {
+    "decision_id": "ASH-D-00094",
+    "applicant_id": "ASH-A-00098",
+    "decided_on": "2026-07-28",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-005"
+  },
+  {
+    "decision_id": "ASH-D-00095",
+    "applicant_id": "ASH-A-00061",
+    "decided_on": "2025-08-08",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00096",
+    "applicant_id": "ASH-A-00156",
+    "decided_on": "2024-11-12",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00097",
+    "applicant_id": "ASH-A-00268",
+    "decided_on": "2026-06-15",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00098",
+    "applicant_id": "ASH-A-00094",
+    "decided_on": "2026-02-22",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00099",
+    "applicant_id": "ASH-A-00278",
+    "decided_on": "2024-10-17",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00100",
+    "applicant_id": "ASH-A-00151",
+    "decided_on": "2026-03-15",
+    "outcome": "withdrawn",
+    "internal_grade": "C1",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-001"
+  },
+  {
+    "decision_id": "ASH-D-00101",
+    "applicant_id": "ASH-A-00080",
+    "decided_on": "2026-01-21",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00102",
+    "applicant_id": "ASH-A-00157",
+    "decided_on": "2025-07-08",
+    "outcome": "approved",
+    "internal_grade": "A2",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00103",
+    "applicant_id": "ASH-A-00218",
+    "decided_on": "2025-12-24",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-001"
+  },
+  {
+    "decision_id": "ASH-D-00104",
+    "applicant_id": "ASH-A-00313",
+    "decided_on": "2026-04-16",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-012"
+  },
+  {
+    "decision_id": "ASH-D-00105",
+    "applicant_id": "ASH-A-00098",
+    "decided_on": "2025-11-26",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-002"
+  },
+  {
+    "decision_id": "ASH-D-00106",
+    "applicant_id": "ASH-A-00163",
+    "decided_on": "2025-03-30",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-003"
+  },
+  {
+    "decision_id": "ASH-D-00107",
+    "applicant_id": "ASH-A-00324",
+    "decided_on": "2025-11-28",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-003"
+  },
+  {
+    "decision_id": "ASH-D-00108",
+    "applicant_id": "ASH-A-00013",
+    "decided_on": "2025-12-13",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-009"
+  },
+  {
+    "decision_id": "ASH-D-00109",
+    "applicant_id": "ASH-A-00092",
+    "decided_on": "2026-03-06",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00110",
+    "applicant_id": "ASH-A-00123",
+    "decided_on": "2025-08-09",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00111",
+    "applicant_id": "ASH-A-00307",
+    "decided_on": "2024-12-13",
+    "outcome": "declined",
+    "internal_grade": "C2",
+    "approved_amount_inr": 500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-018"
+  },
+  {
+    "decision_id": "ASH-D-00112",
+    "applicant_id": "ASH-A-00196",
+    "decided_on": "2024-10-12",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-018"
+  },
+  {
+    "decision_id": "ASH-D-00113",
+    "applicant_id": "ASH-A-00098",
+    "decided_on": "2025-11-17",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-009"
+  },
+  {
+    "decision_id": "ASH-D-00114",
+    "applicant_id": "ASH-A-00334",
+    "decided_on": "2025-12-04",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00115",
+    "applicant_id": "ASH-A-00344",
+    "decided_on": "2024-12-17",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-007"
+  },
+  {
+    "decision_id": "ASH-D-00116",
+    "applicant_id": "ASH-A-00103",
+    "decided_on": "2026-04-19",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-007"
+  },
+  {
+    "decision_id": "ASH-D-00117",
+    "applicant_id": "ASH-A-00241",
+    "decided_on": "2025-05-16",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-009"
+  },
+  {
+    "decision_id": "ASH-D-00118",
+    "applicant_id": "ASH-A-00019",
+    "decided_on": "2025-08-30",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00119",
+    "applicant_id": "ASH-A-00127",
+    "decided_on": "2026-02-17",
+    "outcome": "declined",
+    "internal_grade": "D1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-018"
+  },
+  {
+    "decision_id": "ASH-D-00120",
+    "applicant_id": "ASH-A-00168",
+    "decided_on": "2025-04-25",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-001"
+  },
+  {
+    "decision_id": "ASH-D-00121",
+    "applicant_id": "ASH-A-00295",
+    "decided_on": "2026-06-01",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-016"
+  },
+  {
+    "decision_id": "ASH-D-00122",
+    "applicant_id": "ASH-A-00323",
+    "decided_on": "2026-06-04",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00123",
+    "applicant_id": "ASH-A-00167",
+    "decided_on": "2025-01-11",
+    "outcome": "approved",
+    "internal_grade": "A2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00124",
+    "applicant_id": "ASH-A-00022",
+    "decided_on": "2025-02-18",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-019"
+  },
+  {
+    "decision_id": "ASH-D-00125",
+    "applicant_id": "ASH-A-00301",
+    "decided_on": "2025-04-22",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00126",
+    "applicant_id": "ASH-A-00312",
+    "decided_on": "2025-12-15",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00127",
+    "applicant_id": "ASH-A-00230",
+    "decided_on": "2025-11-01",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00128",
+    "applicant_id": "ASH-A-00054",
+    "decided_on": "2025-07-22",
+    "outcome": "declined",
+    "internal_grade": "A1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-002"
+  },
+  {
+    "decision_id": "ASH-D-00129",
+    "applicant_id": "ASH-A-00043",
+    "decided_on": "2026-05-20",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-001"
+  },
+  {
+    "decision_id": "ASH-D-00130",
+    "applicant_id": "ASH-A-00110",
+    "decided_on": "2026-04-13",
+    "outcome": "declined",
+    "internal_grade": "D2",
+    "approved_amount_inr": 0,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00131",
+    "applicant_id": "ASH-A-00245",
+    "decided_on": "2026-05-07",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00132",
+    "applicant_id": "ASH-A-00039",
+    "decided_on": "2025-09-26",
+    "outcome": "declined",
+    "internal_grade": "D1",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00133",
+    "applicant_id": "ASH-A-00196",
+    "decided_on": "2025-08-18",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00134",
+    "applicant_id": "ASH-A-00104",
+    "decided_on": "2025-03-10",
+    "outcome": "declined",
+    "internal_grade": "C2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00135",
+    "applicant_id": "ASH-A-00294",
+    "decided_on": "2025-09-07",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00136",
+    "applicant_id": "ASH-A-00209",
+    "decided_on": "2025-06-14",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00137",
+    "applicant_id": "ASH-A-00023",
+    "decided_on": "2024-11-14",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00138",
+    "applicant_id": "ASH-A-00036",
+    "decided_on": "2025-08-02",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00139",
+    "applicant_id": "ASH-A-00153",
+    "decided_on": "2024-08-27",
+    "outcome": "declined",
+    "internal_grade": "C2",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00140",
+    "applicant_id": "ASH-A-00275",
+    "decided_on": "2025-04-09",
+    "outcome": "declined",
+    "internal_grade": "D2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00141",
+    "applicant_id": "ASH-A-00192",
+    "decided_on": "2026-06-11",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00142",
+    "applicant_id": "ASH-A-00331",
+    "decided_on": "2025-03-12",
+    "outcome": "declined",
+    "internal_grade": "D1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00143",
+    "applicant_id": "ASH-A-00100",
+    "decided_on": "2025-04-09",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-003"
+  },
+  {
+    "decision_id": "ASH-D-00144",
+    "applicant_id": "ASH-A-00011",
+    "decided_on": "2026-03-22",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-019"
+  },
+  {
+    "decision_id": "ASH-D-00145",
+    "applicant_id": "ASH-A-00193",
+    "decided_on": "2025-11-11",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00146",
+    "applicant_id": "ASH-A-00188",
+    "decided_on": "2024-11-23",
+    "outcome": "withdrawn",
+    "internal_grade": "D2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00147",
+    "applicant_id": "ASH-A-00192",
+    "decided_on": "2026-03-13",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00148",
+    "applicant_id": "ASH-A-00075",
+    "decided_on": "2024-09-10",
+    "outcome": "withdrawn",
+    "internal_grade": "D1",
+    "approved_amount_inr": 500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00149",
+    "applicant_id": "ASH-A-00348",
+    "decided_on": "2025-03-07",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00150",
+    "applicant_id": "ASH-A-00193",
+    "decided_on": "2026-03-04",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-018"
+  },
+  {
+    "decision_id": "ASH-D-00151",
+    "applicant_id": "ASH-A-00036",
+    "decided_on": "2026-01-07",
+    "outcome": "withdrawn",
+    "internal_grade": "B2",
+    "approved_amount_inr": 500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-015"
+  },
+  {
+    "decision_id": "ASH-D-00152",
+    "applicant_id": "ASH-A-00347",
+    "decided_on": "2025-06-24",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00153",
+    "applicant_id": "ASH-A-00228",
+    "decided_on": "2025-03-23",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00154",
+    "applicant_id": "ASH-A-00088",
+    "decided_on": "2026-01-07",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00155",
+    "applicant_id": "ASH-A-00227",
+    "decided_on": "2025-09-23",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-018"
+  },
+  {
+    "decision_id": "ASH-D-00156",
+    "applicant_id": "ASH-A-00309",
+    "decided_on": "2025-08-15",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00157",
+    "applicant_id": "ASH-A-00139",
+    "decided_on": "2026-01-14",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00158",
+    "applicant_id": "ASH-A-00070",
+    "decided_on": "2025-10-31",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-015"
+  },
+  {
+    "decision_id": "ASH-D-00159",
+    "applicant_id": "ASH-A-00129",
+    "decided_on": "2026-06-14",
+    "outcome": "declined",
+    "internal_grade": "A1",
+    "approved_amount_inr": 500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00160",
+    "applicant_id": "ASH-A-00238",
+    "decided_on": "2025-06-23",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 0,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-005"
+  },
+  {
+    "decision_id": "ASH-D-00161",
+    "applicant_id": "ASH-A-00011",
+    "decided_on": "2026-06-05",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00162",
+    "applicant_id": "ASH-A-00305",
+    "decided_on": "2025-07-13",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00163",
+    "applicant_id": "ASH-A-00241",
+    "decided_on": "2026-03-19",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-019"
+  },
+  {
+    "decision_id": "ASH-D-00164",
+    "applicant_id": "ASH-A-00029",
+    "decided_on": "2026-04-06",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-002"
+  },
+  {
+    "decision_id": "ASH-D-00165",
+    "applicant_id": "ASH-A-00209",
+    "decided_on": "2025-05-17",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00166",
+    "applicant_id": "ASH-A-00134",
+    "decided_on": "2025-04-25",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00167",
+    "applicant_id": "ASH-A-00175",
+    "decided_on": "2024-12-19",
+    "outcome": "withdrawn",
+    "internal_grade": "B1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-002"
+  },
+  {
+    "decision_id": "ASH-D-00168",
+    "applicant_id": "ASH-A-00323",
+    "decided_on": "2026-01-14",
+    "outcome": "withdrawn",
+    "internal_grade": "A1",
+    "approved_amount_inr": 0,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-015"
+  },
+  {
+    "decision_id": "ASH-D-00169",
+    "applicant_id": "ASH-A-00014",
+    "decided_on": "2026-05-27",
+    "outcome": "withdrawn",
+    "internal_grade": "A2",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00170",
+    "applicant_id": "ASH-A-00157",
+    "decided_on": "2025-10-29",
+    "outcome": "withdrawn",
+    "internal_grade": "C2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-003"
+  },
+  {
+    "decision_id": "ASH-D-00171",
+    "applicant_id": "ASH-A-00307",
+    "decided_on": "2026-01-18",
+    "outcome": "declined",
+    "internal_grade": "D1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-003"
+  },
+  {
+    "decision_id": "ASH-D-00172",
+    "applicant_id": "ASH-A-00280",
+    "decided_on": "2024-10-19",
+    "outcome": "declined",
+    "internal_grade": "C2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-015"
+  },
+  {
+    "decision_id": "ASH-D-00173",
+    "applicant_id": "ASH-A-00141",
+    "decided_on": "2025-06-09",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-015"
+  },
+  {
+    "decision_id": "ASH-D-00174",
+    "applicant_id": "ASH-A-00217",
+    "decided_on": "2026-07-19",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-001"
+  },
+  {
+    "decision_id": "ASH-D-00175",
+    "applicant_id": "ASH-A-00143",
+    "decided_on": "2026-02-12",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00176",
+    "applicant_id": "ASH-A-00280",
+    "decided_on": "2026-06-20",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-005"
+  },
+  {
+    "decision_id": "ASH-D-00177",
+    "applicant_id": "ASH-A-00188",
+    "decided_on": "2025-06-11",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 0,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00178",
+    "applicant_id": "ASH-A-00034",
+    "decided_on": "2025-03-03",
+    "outcome": "declined",
+    "internal_grade": "B2",
+    "approved_amount_inr": 500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-006"
+  },
+  {
+    "decision_id": "ASH-D-00179",
+    "applicant_id": "ASH-A-00294",
+    "decided_on": "2026-01-30",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00180",
+    "applicant_id": "ASH-A-00142",
+    "decided_on": "2026-05-14",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00181",
+    "applicant_id": "ASH-A-00089",
+    "decided_on": "2026-07-12",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 0,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-003"
+  },
+  {
+    "decision_id": "ASH-D-00182",
+    "applicant_id": "ASH-A-00110",
+    "decided_on": "2026-06-12",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00183",
+    "applicant_id": "ASH-A-00248",
+    "decided_on": "2025-03-28",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-019"
+  },
+  {
+    "decision_id": "ASH-D-00184",
+    "applicant_id": "ASH-A-00046",
+    "decided_on": "2025-02-14",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-015"
+  },
+  {
+    "decision_id": "ASH-D-00185",
+    "applicant_id": "ASH-A-00153",
+    "decided_on": "2026-06-04",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 0,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00186",
+    "applicant_id": "ASH-A-00310",
+    "decided_on": "2025-02-21",
+    "outcome": "approved",
+    "internal_grade": "A1",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00187",
+    "applicant_id": "ASH-A-00258",
+    "decided_on": "2025-08-09",
+    "outcome": "declined",
+    "internal_grade": "C2",
+    "approved_amount_inr": 0,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00188",
+    "applicant_id": "ASH-A-00211",
+    "decided_on": "2025-03-30",
+    "outcome": "withdrawn",
+    "internal_grade": "D2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00189",
+    "applicant_id": "ASH-A-00104",
+    "decided_on": "2024-10-10",
+    "outcome": "withdrawn",
+    "internal_grade": "C2",
+    "approved_amount_inr": 0,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-007"
+  },
+  {
+    "decision_id": "ASH-D-00190",
+    "applicant_id": "ASH-A-00004",
+    "decided_on": "2024-11-19",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-014"
+  },
+  {
+    "decision_id": "ASH-D-00191",
+    "applicant_id": "ASH-A-00162",
+    "decided_on": "2025-09-20",
+    "outcome": "declined",
+    "internal_grade": "C2",
+    "approved_amount_inr": 500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00192",
+    "applicant_id": "ASH-A-00275",
+    "decided_on": "2025-05-11",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00193",
+    "applicant_id": "ASH-A-00167",
+    "decided_on": "2025-04-25",
+    "outcome": "declined",
+    "internal_grade": "A1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00194",
+    "applicant_id": "ASH-A-00346",
+    "decided_on": "2026-04-09",
+    "outcome": "withdrawn",
+    "internal_grade": "B1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-011"
+  },
+  {
+    "decision_id": "ASH-D-00195",
+    "applicant_id": "ASH-A-00184",
+    "decided_on": "2026-04-20",
+    "outcome": "approved",
+    "internal_grade": "A2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-012"
+  },
+  {
+    "decision_id": "ASH-D-00196",
+    "applicant_id": "ASH-A-00317",
+    "decided_on": "2024-12-17",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-008"
+  },
+  {
+    "decision_id": "ASH-D-00197",
+    "applicant_id": "ASH-A-00159",
+    "decided_on": "2025-09-18",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 7500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-002"
+  },
+  {
+    "decision_id": "ASH-D-00198",
+    "applicant_id": "ASH-A-00028",
+    "decided_on": "2024-12-31",
+    "outcome": "withdrawn",
+    "internal_grade": "A2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-007"
+  },
+  {
+    "decision_id": "ASH-D-00199",
+    "applicant_id": "ASH-A-00132",
+    "decided_on": "2024-11-08",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00200",
+    "applicant_id": "ASH-A-00311",
+    "decided_on": "2026-06-13",
+    "outcome": "approved",
+    "internal_grade": "D2",
+    "approved_amount_inr": 500000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-019"
+  },
+  {
+    "decision_id": "ASH-D-00201",
+    "applicant_id": "ASH-A-00052",
+    "decided_on": "2024-12-14",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 500000,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-007"
+  },
+  {
+    "decision_id": "ASH-D-00202",
+    "applicant_id": "ASH-A-00151",
+    "decided_on": "2024-10-10",
+    "outcome": "withdrawn",
+    "internal_grade": "C1",
+    "approved_amount_inr": 3000000,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-007"
+  },
+  {
+    "decision_id": "ASH-D-00203",
+    "applicant_id": "ASH-A-00127",
+    "decided_on": "2024-10-05",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 1500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-002"
+  },
+  {
+    "decision_id": "ASH-D-00204",
+    "applicant_id": "ASH-A-00032",
+    "decided_on": "2025-04-07",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 0,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00205",
+    "applicant_id": "ASH-A-00005",
+    "decided_on": "2025-07-16",
+    "outcome": "approved",
+    "internal_grade": "A2",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-020"
+  },
+  {
+    "decision_id": "ASH-D-00206",
+    "applicant_id": "ASH-A-00208",
+    "decided_on": "2025-05-08",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-015"
+  },
+  {
+    "decision_id": "ASH-D-00207",
+    "applicant_id": "ASH-A-00208",
+    "decided_on": "2026-02-28",
+    "outcome": "declined",
+    "internal_grade": "D1",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-010"
+  },
+  {
+    "decision_id": "ASH-D-00208",
+    "applicant_id": "ASH-A-00166",
+    "decided_on": "2026-06-20",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00209",
+    "applicant_id": "ASH-A-00072",
+    "decided_on": "2025-06-13",
+    "outcome": "withdrawn",
+    "internal_grade": "C1",
+    "approved_amount_inr": 1500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-002"
+  },
+  {
+    "decision_id": "ASH-D-00210",
+    "applicant_id": "ASH-A-00213",
+    "decided_on": "2025-03-27",
+    "outcome": "declined",
+    "internal_grade": "A2",
+    "approved_amount_inr": 0,
+    "reason_code": "DOC_MISMATCH",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00211",
+    "applicant_id": "ASH-A-00195",
+    "decided_on": "2025-12-12",
+    "outcome": "approved",
+    "internal_grade": "A2",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-017"
+  },
+  {
+    "decision_id": "ASH-D-00212",
+    "applicant_id": "ASH-A-00325",
+    "decided_on": "2024-11-12",
+    "outcome": "approved",
+    "internal_grade": "C1",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-004"
+  },
+  {
+    "decision_id": "ASH-D-00213",
+    "applicant_id": "ASH-A-00207",
+    "decided_on": "2025-09-21",
+    "outcome": "approved",
+    "internal_grade": "B1",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-003"
+  },
+  {
+    "decision_id": "ASH-D-00214",
+    "applicant_id": "ASH-A-00324",
+    "decided_on": "2026-04-22",
+    "outcome": "approved",
+    "internal_grade": "D1",
+    "approved_amount_inr": 500000,
+    "reason_code": "APPROVED_STANDARD",
+    "human_signatory": "ASH-U-013"
+  },
+  {
+    "decision_id": "ASH-D-00215",
+    "applicant_id": "ASH-A-00316",
+    "decided_on": "2025-10-16",
+    "outcome": "declined",
+    "internal_grade": "B1",
+    "approved_amount_inr": 0,
+    "reason_code": "SECTOR_CAP",
+    "human_signatory": "ASH-U-007"
+  },
+  {
+    "decision_id": "ASH-D-00216",
+    "applicant_id": "ASH-A-00323",
+    "decided_on": "2025-02-27",
+    "outcome": "approved",
+    "internal_grade": "A2",
+    "approved_amount_inr": 0,
+    "reason_code": "DSCR_BELOW_FLOOR",
+    "human_signatory": "ASH-U-012"
+  },
+  {
+    "decision_id": "ASH-D-00217",
+    "applicant_id": "ASH-A-00291",
+    "decided_on": "2025-01-27",
+    "outcome": "approved",
+    "internal_grade": "C2",
+    "approved_amount_inr": 3000000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-005"
+  },
+  {
+    "decision_id": "ASH-D-00218",
+    "applicant_id": "ASH-A-00282",
+    "decided_on": "2025-12-01",
+    "outcome": "approved",
+    "internal_grade": "B2",
+    "approved_amount_inr": 500000,
+    "reason_code": "THIN_FILE",
+    "human_signatory": "ASH-U-001"
+  },
+  {
+    "decision_id": "ASH-D-00219",
+    "applicant_id": "ASH-A-00023",
+    "decided_on": "2025-12-15",
+    "outcome": "declined",
+    "internal_grade": "C1",
+    "approved_amount_inr": 7500000,
+    "reason_code": "ADVERSE_BUREAU",
+    "human_signatory": "ASH-U-020"
+  }
+]

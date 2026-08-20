@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "credit-policy-core",
+    "title": "Ashva Capital Credit Policy Manual: Core Underwriting Standards",
+    "section": "policy",
+    "markdown": "corpus/markdown/credit-policy-core.md",
+    "pdf": "corpus/pdf/credit-policy-core.pdf",
+    "chars": 2404
+  },
+  {
+    "slug": "fair-lending",
+    "title": "Fair Lending and Non-Discrimination Standard",
+    "section": "compliance",
+    "markdown": "corpus/markdown/fair-lending.md",
+    "pdf": "corpus/pdf/fair-lending.pdf",
+    "chars": 3821
+  },
+  {
+    "slug": "doc-verification",
+    "title": "Document Verification and Fraud Screening Procedure",
+    "section": "policy",
+    "markdown": "corpus/markdown/doc-verification.md",
+    "pdf": "corpus/pdf/doc-verification.pdf",
+    "chars": 4307
+  },
+  {
+    "slug": "risk-grading",
+    "title": "Internal Risk Grading and Pricing Grid",
+    "section": "policy",
+    "markdown": "corpus/markdown/risk-grading.md",
+    "pdf": "corpus/pdf/risk-grading.pdf",
+    "chars": 2340
+  },
+  {
+    "slug": "adverse-action",
+    "title": "Adverse Action and Applicant Communication Standard",
+    "section": "compliance",
+    "markdown": "corpus/markdown/adverse-action.md",
+    "pdf": "corpus/pdf/adverse-action.pdf",
+    "chars": 2779
+  },
+  {
+    "slug": "sector-textiles",
+    "title": "Sector Underwriting Note: Textiles",
+    "section": "sector_policy",
+    "markdown": "corpus/markdown/sector-textiles.md",
+    "pdf": "corpus/pdf/sector-textiles.pdf",
+    "chars": 2976
+  },
+  {
+    "slug": "sector-food-processing",
+    "title": "Sector Underwriting Note: Food Processing",
+    "section": "sector_policy",
+    "markdown": "corpus/markdown/sector-food-processing.md",
+    "pdf": "corpus/pdf/sector-food-processing.pdf",
+    "chars": 2477
+  },
+  {
+    "slug": "sector-light-engineering",
+    "title": "Sector Underwriting Note: Light Engineering",
+    "section": "sector_policy",
+    "markdown": "corpus/markdown/sector-light-engineering.md",
+    "pdf": "corpus/pdf/sector-light-engineering.pdf",
+    "chars": 2255
+  },
+  {
+    "slug": "sector-logistics",
+    "title": "Sector Underwriting Note: Logistics",
+    "section": "sector_policy",
+    "markdown": "corpus/markdown/sector-logistics.md",
+    "pdf": "corpus/pdf/sector-logistics.pdf",
+    "chars": 3085
+  },
+  {
+    "slug": "sector-retail-trade",
+    "title": "Sector Underwriting Note: Retail Trade",
+    "section": "sector_policy",
+    "markdown": "corpus/markdown/sector-retail-trade.md",
+    "pdf": "corpus/pdf/sector-retail-trade.pdf",
+    "chars": 2581
+  },
+  {
+    "slug": "sector-auto-components",
+    "title": "Sector Underwriting Note: Auto Components",
+    "section": "sector_policy",
+    "markdown": "corpus/markdown/sector-auto-components.md",
+    "pdf": "corpus/pdf/sector-auto-components.pdf",
+    "chars": 3034
+  },
+  {
+    "slug": "sector-pharma-packaging",
+    "title": "Sector Underwriting Note: Pharma Packaging",
+    "section": "sector_policy",
+    "markdown": "corpus/markdown/sector-pharma-packaging.md",
+    "pdf": "corpus/pdf/sector-pharma-packaging.pdf",
+    "chars": 2759
+  },
+  {
+    "slug": "sector-it-services",
+    "title": "Sector Underwriting Note: IT Services",
+    "section": "sector_policy",
+    "markdown": "corpus/markdown/sector-it-services.md",
+    "pdf": "corpus/pdf/sector-it-services.pdf",
+    "chars": 2670
+  }
+]
