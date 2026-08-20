@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(python3 m4.py)",
-      "Bash(pip3 install *)"
+      "Bash(pip3 install *)",
+      "Bash(brew install *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
