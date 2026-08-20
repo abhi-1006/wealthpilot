@@ -58,6 +58,16 @@
     background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-top: 4px;
   }
   .decision-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+  .sources { margin-top: 10px; font-size: 11.5px; color: var(--muted); }
+  .sources .src-tag {
+    display: inline-block; background: var(--bg); border: 1px solid var(--border);
+    border-radius: 6px; padding: 2px 8px; margin: 2px 4px 2px 0; font-family: ui-monospace, monospace;
+  }
+  .route-tag {
+    display: inline-block; font-size: 10px; text-transform: uppercase; letter-spacing: .04em;
+    color: var(--accent-dark); background: rgba(218,119,86,.1); border-radius: 6px;
+    padding: 2px 7px; margin-bottom: 8px; font-weight: 600;
+  }
   .stat { background: var(--bg); border-radius: 8px; padding: 8px 12px; flex: 1; min-width: 120px; }
   .stat .label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
   .stat .value { font-size: 15px; font-weight: 600; margin-top: 2px; }
@@ -100,9 +110,10 @@
 <div class="chat" id="chat">
   <div class="empty-state" id="emptyState">
     <h1>How can I help with underwriting today?</h1>
-    <p>Ask a policy question, or run a sample application through the pipeline.</p>
+    <p>Ask a policy question, request a DSCR/interest calculation, or run a sample application through the pipeline.</p>
     <div class="chips">
       <div class="chip" onclick="sendPreset('What is the minimum DSCR for SME term loans?')">What is the minimum DSCR for SME term loans?</div>
+      <div class="chip" onclick="sendPreset('What is the DSCR if EBITDA is 3120000 and existing debt service is 1900000?')">Calculate a DSCR from EBITDA and debt service</div>
       <div class="chip" onclick="sendPreset('What protected attributes must never enter a credit decision?')">What protected attributes must never enter a credit decision?</div>
       <div class="chip" onclick="runUnderwrite(0)">Underwrite sample application #1</div>
       <div class="chip" onclick="runUnderwrite(1)">Underwrite sample application #2</div>
@@ -118,7 +129,7 @@
       <input type="text" id="question" placeholder="Ask about underwriting policy…" onkeydown="if(event.key==='Enter') send()">
       <button id="sendBtn" onclick="send()">↑</button>
     </div>
-    <div class="hint">Try "underwrite application 1" to run a sample decision, or ask any policy question.</div>
+    <div class="hint">Try "underwrite application 1" for a sample decision, ask a policy question, or ask it to calculate a DSCR.</div>
   </div>
 </div>
 
@@ -172,22 +183,32 @@ async function send() {
   await askPolicy(q, true);
 }
 
+const ROUTE_LABELS = { tool: 'calculated', retrieval: 'policy lookup', direct: 'chat' };
+
 async function askPolicy(q, alreadyAddedUser) {
   if (!alreadyAddedUser) addUserMsg(q);
-  const placeholder = addAssistantMsg('<span class="typing">Retrieving policy and generating a grounded answer…</span>');
+  const placeholder = addAssistantMsg('<span class="typing">Routing the question — tool, policy retrieval, or a direct reply…</span>');
   try {
-    const resp = await fetch('/decision', {
+    const resp = await fetch('/chat', {
       method: 'POST', headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({question: q})
+      body: JSON.stringify({query: q})
     });
     const data = await resp.json();
     if (resp.status === 422) {
-      placeholder.querySelector('.bubble') ? null : null;
       placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble error-bubble">Blocked by guardrails: ${JSON.stringify(data.detail.flags)}</div>`;
     } else if (!resp.ok) {
       placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble error-bubble">Error: ${JSON.stringify(data)}</div>`;
     } else {
-      placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble">${data.answer}</div>`;
+      const routeLabel = ROUTE_LABELS[data.route] || data.route;
+      const sources = [...new Set(data.retrieved_doc_ids || [])];
+      const sourcesHtml = sources.length
+        ? `<div class="sources">Sources: ${sources.map(s => `<span class="src-tag">${s}</span>`).join('')}</div>`
+        : '';
+      placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble">
+        <span class="route-tag">${routeLabel}</span><br>
+        ${escapeHtml(data.final_answer)}
+        ${sourcesHtml}
+      </div>`;
     }
   } catch (e) {
     placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble error-bubble">Request failed: ${e}</div>`;
