@@ -9,3 +9,4 @@ memory_store.json
 presentation/node_modules/
 presentation/package-lock.json
 presentation/slide-*.jpg
+.embcache/

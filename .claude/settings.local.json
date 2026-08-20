@@ -6,7 +6,17 @@
       "Bash(brew install *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Read(//Users/abhiram/Documents/Summer work/only labs/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -m py_compile m8.py)",
+      "Bash(python3 -m py_compile m7.py m8.py)",
+      "Bash(grep -c \"^deepeval$\" requirements.txt)",
+      "Bash(timeout 90 python3 -c \"import m8; print\\('m8 import OK'\\)\")",
+      "Bash(python3 -c \"import m8; print\\('m8 import OK'\\)\")",
+      "Bash(python3 -m py_compile m7.py)",
+      "Bash(kill -9 26039)",
+      "Bash(lsof -nP -iTCP:8000 -sTCP:LISTEN)"
     ]
   }
 }
