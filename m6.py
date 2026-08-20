@@ -298,3 +298,4 @@ if __name__ == "__main__":
         print(f"  [{'x' if ok else ' '}] {item}")
     assert all(checklist.values()), "One or more milestone criteria not met."
     print("\nPASS -- this committee satisfies the Milestone 6 checklist.")
+

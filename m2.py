@@ -168,3 +168,4 @@ if __name__ == "__main__":
         "interest on a 3,000,000 INR loan at 12% annual rate over 24 months."
     )
     print(answer)
+

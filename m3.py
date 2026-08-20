@@ -129,3 +129,4 @@ if __name__ == "__main__":
     )
     print("\nPASS -- summarization fired and the planted fact survived compression.")
     print("Rolling summary:", summary)
+

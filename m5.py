@@ -222,3 +222,4 @@ if __name__ == "__main__":
         print(f"  [{'x' if ok else ' '}] {item}")
     assert all(checklist.values()), "One or more milestone criteria not met."
     print("\nPASS -- this graph satisfies the Milestone 5 checklist for real, including surviving an actual restart.")
+
