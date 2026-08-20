@@ -7,6 +7,10 @@ overhead measurement. Runs correctly with or without Langfuse keys set.
 Reliability: a seeded fault-injection harness around the bureau-lookup
 dependency, hardened with retries (tenacity), a fallback record, and a
 circuit breaker, with a before/after success-rate comparison.
+
+Evaluation: DeepEval's HallucinationMetric on the risk agent's summary vs
+its real tool-result context, a retrieval-recall check against M4's golden
+set, and ToolCorrectnessMetric against the fault-injection harness above.
 """
 
 import functools
@@ -30,7 +34,7 @@ print("Langfuse configured:", LANGFUSE_CONFIGURED,
       "(SDK still runs and every self-check still passes without keys -- traces just won't reach the UI)")
 
 from m1 import parse_invoice
-from m2 import credit_bureau_lookup, dscr_calculator
+from m2 import credit_bureau_lookup, dscr_calculator, interest_calculator, run_risk_agent
 
 # ---------------------------------------------------------------------------
 # Observability
@@ -199,6 +203,81 @@ class CircuitBreaker:
             return result
 
 
+# ---------------------------------------------------------------------------
+# Evaluation -- catching hallucination, extraction misses, and tool failures
+# systematically. Three failure modes DeepEval's HallucinationMetric,
+# retrieval-recall math, and ToolCorrectnessMetric each catch. Judge model is
+# Groq (via LiteLLM), same account already used everywhere else.
+# ---------------------------------------------------------------------------
+
+from deepeval.metrics import HallucinationMetric, ToolCorrectnessMetric
+from deepeval.models import LiteLLMModel
+from deepeval.test_case import LLMTestCase, ToolCall
+
+_deepeval_judge = LiteLLMModel(model="groq/openai/gpt-oss-120b", api_key=os.getenv("GROQ_API_KEY"))
+
+
+def check_hallucination() -> tuple[float, str]:
+    """Does the risk agent's natural-language summary claim anything the
+    underlying tool results (bureau lookup + DSCR/interest calc) don't
+    support?"""
+    bureau = credit_bureau_lookup("ASH-A-00000")
+    dscr = dscr_calculator(3_120_000, 1_900_000)
+    interest = interest_calculator(3_000_000, 12, 24)
+    context = [
+        f"Bureau profile for ASH-A-00000: {bureau}",
+        f"DSCR computed from EBITDA 3120000 and existing debt service 1900000: {dscr}",
+        f"Total interest on a 3000000 loan at 12% over 24 months: {interest}",
+    ]
+    request = (
+        "Applicant ASH-A-00000 wants to confirm their credit bureau profile "
+        "and check the DSCR for a loan with EBITDA 3,120,000 INR and "
+        "existing annual debt service of 1,900,000 INR. Also compute total "
+        "interest on a 3,000,000 INR loan at 12% annual rate over 24 months."
+    )
+    agent_answer = run_risk_agent(request)
+
+    test_case = LLMTestCase(input=request, actual_output=agent_answer, context=context)
+    metric = HallucinationMetric(threshold=0.3, model=_deepeval_judge)
+    metric.measure(test_case)
+    return metric.score, metric.reason
+
+
+def check_retrieval_recall(k: int = 5) -> float:
+    """Did M4's retrieval fetch every chunk that actually answers each
+    golden retrieval question -- adapts Ragas' Context Recall concept to
+    our hybrid+rerank pipeline instead of importing Ragas."""
+    from m4 import RETRIEVAL_GOLDEN, gold_chunks, retrieve
+
+    recalls = []
+    for g in RETRIEVAL_GOLDEN:
+        gold = gold_chunks(g["answer_contains"])
+        got = set(retrieve(g["q"], k=k))
+        recalls.append(len(got & gold) / len(gold) if gold else 1.0)
+    return sum(recalls) / len(recalls)
+
+
+def check_tool_correctness(force_fail: bool) -> tuple[float, str]:
+    """Given a fault-injected bureau lookup, did the hardened wrapper call
+    exactly the tools it should have -- bureau lookup alone on success,
+    bureau lookup + fallback when the dependency fails?"""
+    config = FaultConfig(seed=1, fail_rate=1.0 if force_fail else 0.0)
+    flaky = make_flaky_bureau_lookup(config)
+    robust = make_robust_lookup(flaky)
+    _, used_fallback = robust("ASH-A-00000")
+
+    tools_called = [ToolCall(name="credit_bureau_lookup")]
+    if used_fallback:
+        tools_called.append(ToolCall(name="fallback"))
+    expected = [ToolCall(name="credit_bureau_lookup")] + ([ToolCall(name="fallback")] if force_fail else [])
+
+    test_case = LLMTestCase(input="look up ASH-A-00000", actual_output="(tool trace only)",
+                             tools_called=tools_called, expected_tools=expected)
+    metric = ToolCorrectnessMetric(model=_deepeval_judge)
+    metric.measure(test_case)
+    return metric.score, metric.reason
+
+
 if __name__ == "__main__":
     with open("capstone-data-toolkit/data/wealthpilot/intake/records.jsonl") as f:
         records = [__import__("json").loads(line) for line in f]
@@ -253,6 +332,20 @@ if __name__ == "__main__":
     print(f"circuit breaker vs a fully-down dependency: {real_attempts} real attempts, "
           f"{short_circuited} short-circuited, {always_fail.calls['n']} calls actually hit the dependency")
 
+    print("\n=== Evaluation: hallucination, extraction recall, tool correctness ===")
+    halluc_score, halluc_reason = check_hallucination()
+    print(f"HallucinationMetric score: {halluc_score:.2f} (0=hallucinated, 1=fully grounded)")
+    print(f"  reason: {halluc_reason}")
+
+    from m4 import RETRIEVAL_GOLDEN as _RG
+    recall = check_retrieval_recall()
+    print(f"\nRetrieval recall (M4, avg over {len(_RG)} golden questions): {recall:.3f}")
+
+    tool_score_ok, tool_reason_ok = check_tool_correctness(force_fail=False)
+    print(f"\nToolCorrectnessMetric (dependency healthy): {tool_score_ok:.2f}  reason: {tool_reason_ok}")
+    tool_score_fail, tool_reason_fail = check_tool_correctness(force_fail=True)
+    print(f"ToolCorrectnessMetric (dependency failing):  {tool_score_fail:.2f}  reason: {tool_reason_fail}")
+
     checklist = {
         "traced() wraps real pipeline nodes": len(RUN_EVENTS) > 0,
         "runs are tagged (session_id)": bool(session_id),
@@ -263,6 +356,10 @@ if __name__ == "__main__":
         "fallback usage is visible, not silent": hardened["fallback_used"] >= 0,
         "circuit breaker short-circuits a dead dependency": short_circuited > 0
             and always_fail.calls["n"] < 10,
+        "hallucination scored against real tool-result context": isinstance(halluc_score, float),
+        "retrieval recall computed against the golden set": 0.0 <= recall <= 1.0,
+        "tool correctness scored for both healthy and failing dependency": isinstance(tool_score_ok, float)
+            and isinstance(tool_score_fail, float),
     }
     print("\n--- Milestone 7 checklist ---")
     for item, ok in checklist.items():
