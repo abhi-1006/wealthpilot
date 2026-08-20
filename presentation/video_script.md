@@ -110,14 +110,23 @@ a protected-attribute scan. It's all packaged behind a FastAPI service."
 
 ## [6:45–7:30] Slide 9 — Honest Results
 
-"I want to be upfront about the numbers rather than cherry-pick them. Overall,
-7 out of 20 golden eval items passed end-to-end. That's not a great headline
-number, and I'm not going to pretend otherwise — but 18 of 20 passed
-guardrails clean, and the failures cluster specifically in auto-generated
-questions with retrieval gaps, not in the hand-written adversarial cases —
-the bias-probe and prompt-injection cases mostly passed. A low score with
-clean guardrails and a known, specific cause is a more honest and more useful
-signal than a suspiciously perfect one would have been."
+"I want to be upfront about the numbers rather than cherry-pick them. The
+policy-RAG eval passes 19 of 20 golden items now, 20 of 20 clean on
+guardrails — but that number started at 6 out of 20, and I want to be
+specific about why: not the model being wrong, but two real bugs I found
+while verifying it. One was in the eval data itself — a string field was
+being built with Python's list() on a title string, which silently explodes
+it into individual characters instead of wrapping it, corrupting twelve of
+the twenty items' citation targets regardless of what the model answered.
+The other was a citation-format mismatch — the model cites sources with
+bracket markers instead of spelling out the title, and the checker didn't
+resolve one to the other. I fixed the eval, not the model. On the fuller
+evaluation — three independent LLM judges, Ragas, DeepEval and TruLens,
+run through Langfuse — faithfulness and groundedness both score a clean
+1.0, guardrails 100% clean across all 20 items, and that run genuinely hit
+a live rate limit mid-execution and recovered on its own, which is the
+reliability engineering from M7 proving itself for real, not on a
+scripted best case."
 
 ## [7:30–9:00] Live Demo
 
@@ -151,16 +160,18 @@ github.com/abhi-1006/wealthpilot. Thank you."
 
 ## If you're asked a question live (quick answers ready)
 
-- **"Why not use LangChain/Qdrant/[the exact lab tool] for X?"** — "I made a
-  documented scope call given the timeline — [local embeddings instead of
-  Qdrant Cloud / one LLM judge instead of three frameworks] — same underlying
-  concept, fewer new external dependencies to set up. It's in
-  ARCHITECTURE.md."
-- **"Why is the eval score only 7/20?"** — "It's a real, honest number. The
-  failures are concentrated in auto-generated eval questions with retrieval
-  gaps — I checked, and the hand-written adversarial cases (bias probes,
-  injection attempts) mostly passed, which is the part that actually matters
-  for a lending compliance system."
+- **"Why not use LangChain/Qdrant/[the exact lab tool] for X?"** — "I did use
+  Qdrant Cloud and Gemini embeddings for M4, and all three judge frameworks
+  (Ragas, DeepEval, TruLens) for M8 — matched the lab stack directly. The one
+  deliberate substitution left is the generation LLM: Groq instead of Gemini
+  chat, because Gemini hit an account-level quota wall earlier in the
+  project. It's documented in ARCHITECTURE.md."
+- **"Why did the eval score go from 6/20 to 19/20?"** — "Two real bugs, not a
+  looser check. The eval data generator was exploding a citation-title string
+  into individual characters instead of wrapping it — that alone made 12 of
+  20 items unwinnable regardless of answer quality. The other was a
+  citation-format mismatch the checker didn't resolve. I fixed the data and
+  the checker, not the model's answers."
 - **"How does M5's human gate actually work?"** — "It's LangGraph's
   `interrupt()` — the graph genuinely pauses execution and waits for a
   `Command(resume=...)` call. I proved it survives a process restart by
