@@ -6,7 +6,5 @@ __pycache__/
 .DS_Store
 memory_store.json
 *.sqlite
-presentation/node_modules/
-presentation/package-lock.json
-presentation/slide-*.jpg
+presentation/
 .embcache/

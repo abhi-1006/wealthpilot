@@ -32,4 +32,3 @@ Run from the project root — later milestones import from earlier ones.
 - `wealthpilot_mcp_server.py` — MCP server for M6
 - `frontend.html` — demo UI, served by M8's FastAPI app
 - `capstone-data-toolkit/` — synthetic data generator
-- `presentation/` — slides + demo video script
