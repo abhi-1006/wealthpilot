@@ -8,3 +8,5 @@ memory_store.json
 *.sqlite
 presentation/
 .embcache/
+session2_docs/
+.claude/
