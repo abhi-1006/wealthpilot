@@ -28,6 +28,18 @@ from faker import Faker
 #: in every domain shifts together, which is usually not what you want.
 REFERENCE_NOW = datetime(2026, 8, 1, 9, 0)
 
+
+def _as_str_list(value: Any) -> list[str]:
+    """Coerce an eval-generation field to a list of strings. The generation
+    LLM sometimes returns a single string instead of a one-item JSON array --
+    list(value) on a bare string explodes it into individual characters, so
+    a string is wrapped instead of iterated."""
+    if not value:
+        return []
+    if isinstance(value, str):
+        return [value]
+    return [str(v) for v in value]
+
 from ..config import settings
 from ..llm import complete, complete_json
 from ..writers import (
@@ -256,8 +268,8 @@ class DomainSpec(ABC):
                         question=str(case.get("question", "")).strip(),
                         expected=str(case.get("expected", "")).strip(),
                         category=str(case.get("category", "factual")),
-                        must_cite=list(case.get("must_cite", []) or []),
-                        must_not_contain=list(case.get("must_not_contain", []) or []),
+                        must_cite=_as_str_list(case.get("must_cite")),
+                        must_not_contain=_as_str_list(case.get("must_not_contain")),
                         expected_route=str(case.get("expected_route", "auto")),
                     )
                 )
