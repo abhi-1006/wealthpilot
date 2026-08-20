@@ -1,15 +1,10 @@
 """M5 -- Orchestrated LangGraph workflow with checkpointing.
 
-Built to match the Day 3 Session 1 lab's own Milestone 5 checklist exactly
-(Lab B, cell 74):
-  - typed state schema with an explicit reducer (control field vs audit field)
-  - deterministic checks separated from routing (pure functions)
-  - conditional routing as a pure function
-  - loop guard (bounded revisions)
-  - a REAL human gate via interrupt() -- not a node that just labels a decision
-  - a DURABLE checkpointer (SqliteSaver) that survives an actual process restart
-  - the irreversible action isolated in its own node, downstream of the pause
-    (the interrupt() node does nothing but ask; finalize is separate)
+Typed state with a control/audit field split, deterministic routing as a
+pure function, a bounded revision loop, a real human-approval gate via
+interrupt(), and a durable SqliteSaver checkpointer that survives an actual
+process restart. The irreversible finalize step sits in its own node,
+downstream of the pause.
 
 Graph shape:
 
@@ -87,14 +82,14 @@ def risk_scoring_node(state: UnderwritingState) -> dict:
 def request_more_info_node(state: UnderwritingState) -> dict:
     """The bounded revision loop. In a real system this pauses for the applicant
     to supply the missing document; here it's simulated deterministically so the
-    loop guard itself stays reproducible -- same discipline as the lab's revise_node."""
+    loop guard itself stays reproducible."""
     rev = state.get("revision_count", 0) + 1
     return {"revision_count": rev,
             "audit_log": [f"revision {rev}: requested missing fields {state.get('missing_fields')}"]}
 
 
 def route_after_scoring(state: UnderwritingState) -> str:
-    """Pure function of state -- unit-testable with no graph, no model, per the lab's rule."""
+    """Pure function of state -- unit-testable with no graph, no model."""
     if state.get("application") is None:
         return "human_approval"
     if state.get("missing_fields") and state.get("revision_count", 0) < MAX_REVISIONS:
@@ -112,8 +107,8 @@ def auto_decline_node(state: UnderwritingState) -> dict:
 
 
 def human_approval_node(state: UnderwritingState) -> dict:
-    """The pause. Does NOTHING before interrupt() except read state -- per Lab B's Part B8 rule,
-    any side effect placed before interrupt() in the same node re-runs on resume."""
+    """The pause. Does nothing before interrupt() except read state --
+    a side effect placed before interrupt() in the same node would re-run on resume."""
     decision = interrupt({
         "question": "Approve this loan application?",
         "application_id": state.get("application", {}).get("application_id"),
@@ -169,7 +164,7 @@ def build_graph(checkpointer):
 
 if __name__ == "__main__":
     if os.path.exists(DB_PATH):
-        os.remove(DB_PATH)  # clean slate so the run is repeatable, same as the lab
+        os.remove(DB_PATH)  # clean slate so the run is repeatable
 
     conn = sqlite3.connect(DB_PATH, check_same_thread=False)
     saver = SqliteSaver(conn)

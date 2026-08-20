@@ -1,7 +1,6 @@
-"""M3 -- Persistent memory, backed by Supermemory (real hosted memory store,
-same service and API pattern as the Day 2 Session 1 lab).
+"""M3 -- Persistent memory, backed by Supermemory.
 
-Four kinds of memory (CoALA taxonomy):
+Four kinds of memory:
   working    -- the live conversation buffer, transient, in-process only
   episodic   -- "what happened" -- specific timestamped events
   semantic   -- "what is stably true" -- durable facts about an applicant
@@ -48,7 +47,7 @@ def token_estimate(text: str) -> int:
 
 # ---------------------------------------------------------------------------
 # Summarization -- lossy, so we TEST that a planted fact survives compression
-# rather than assuming it does (same principle as the lab's Lab B).
+# rather than assuming it does.
 # ---------------------------------------------------------------------------
 
 RECENT_KEEP = 4

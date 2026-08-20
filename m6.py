@@ -1,14 +1,10 @@
 """M6 -- Multi-agent underwriting committee + MCP integration.
 
-Built to match the Day 3 Session 2 lab's own Milestone 6 checklist: specialised
-agents with enforced write scopes, a supervisor as a pure/tested routing function
-guarded by legal_routes(), two independent critics, a bounded revision loop,
-an escalation path, and the team's data access wired through a real MCP server
-(wealthpilot_mcp_server.py) exposing tools AND a resource.
-
-WealthPilot's own spec names the committee directly: Analyst (producer),
-Risk Reviewer + Compliance Reviewer (the two independent critics) -- this maps
-onto the lab's Writer + Fact-Checker + Reviewer shape exactly.
+Analyst (producer) plus Risk Reviewer and Compliance Reviewer (independent
+critics), each with an enforced write scope. A supervisor routes work as a
+pure function guarded against illegal routes, with a bounded revision loop
+and an escalation path. Bureau/bank data access goes through a real MCP
+server (wealthpilot_mcp_server.py) exposing tools and a resource.
 """
 
 import asyncio
@@ -48,7 +44,7 @@ class CommitteeState(TypedDict):
 
 
 # ---------------------------------------------------------------------------
-# A1 equivalent -- write scopes, enforced
+# Write scopes, enforced
 # ---------------------------------------------------------------------------
 
 AGENT_SCOPES = {
@@ -110,7 +106,7 @@ def parse_tool_result(raw):
 
 @scoped("intake_risk")
 async def intake_risk_node(state: CommitteeState) -> dict:
-    """Parse (M1) + compute DSCR (M2) + fetch bureau data over MCP (M6's own deliverable)."""
+    """Parse the application, compute DSCR, fetch bureau data over MCP."""
     app, _ = parse_invoice(state["application"])
     if app is None:
         return {"application": None, "dscr": None, "bureau_report": None,
@@ -119,11 +115,9 @@ async def intake_risk_node(state: CommitteeState) -> dict:
     fin = app.declared_financials
     dscr = dscr_calculator(fin.ebitda_inr, fin.existing_debt_inr) if fin.ebitda_inr and fin.existing_debt_inr else None
 
-    # THE MCP call -- data access crosses a process boundary to wealthpilot_mcp_server.py,
-    # same tool logic as m2.py's credit_bureau_lookup, now served over the protocol.
     tools = await mcp_client.get_tools()
     tools_by_name = {t.name: t for t in tools}
-    applicant_id_guess = "ASH-A-00000"  # known ID-linkage gap, documented since M2
+    applicant_id_guess = "ASH-A-00000"  # applications and bureau records use unlinked ID schemes
     raw = await tools_by_name["credit_bureau_lookup"].ainvoke({"applicant_id": applicant_id_guess})
     bureau = parse_tool_result(raw)
 
@@ -188,7 +182,7 @@ def escalate_node(state: CommitteeState) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# A3 equivalent -- supervisor as a pure function, wrapped by a legal-routes guard
+# Supervisor as a pure function, wrapped by a legal-routes guard
 # ---------------------------------------------------------------------------
 
 def supervisor_policy(state: CommitteeState) -> str:

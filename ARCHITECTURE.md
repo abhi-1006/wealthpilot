@@ -69,9 +69,8 @@ rather than solving the underlying data-modeling problem.
   more closely than the summary problem-statement doc's wording, which conflates the two.
 - Fault injection in M7 is applied to the bureau-lookup dependency specifically; other external
   calls (Groq itself) rely on LiteLLM's own retry rather than a bespoke circuit breaker.
-- M8 uses one LLM-judge framework (Groq via LiteLLM) rather than the reference lab's three
-  (Ragas/DeepEval/TruLens), a deliberate scope decision given the submission deadline — same
-  "judge alongside a deterministic metric" principle, fewer new dependencies.
+- M8 uses one LLM-judge framework (Groq via LiteLLM) rather than three separate ones, keeping the
+  same "judge alongside a deterministic metric" principle with fewer new dependencies.
 
 ## Deployment notes
 

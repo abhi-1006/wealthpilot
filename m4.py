@@ -1,20 +1,13 @@
 """M4 -- Production RAG + evaluation baseline.
 
-Deliberate scope decisions, given the submission deadline:
-  - Embeddings: local sentence-transformers model (all-MiniLM-L6-v2) instead
-    of Gemini's hosted embedding API. No signup, no rate limits, no repeat
-    of the Gemini quota problem we hit earlier. Runs entirely offline once
-    the model weights are cached.
-  - Vector store: an in-process numpy array instead of Qdrant Cloud. Same
-    "embed + index + search" concept the lab teaches; no separate cloud
-    service to provision under time pressure. Fine at this corpus size
-    (a few hundred chunks); would need a real vector DB at production scale.
-  - Chunking: markdown corpus only for the eval baseline (not the lossy PDF
-    copy) -- noted as a known simplification, not something we're hiding.
+Local sentence-transformer embeddings + BM25, fused with RRF, then
+cross-encoder reranking over the policy corpus. Answers are grounded and
+cited from the reranked chunks, with an injection-resistant prompt. Scored
+against a golden eval set for real retrieval accuracy.
 
-Kept from the lab as-is: BM25 for deterministic exact-token matching, RRF
-fusion for hybrid search, cross-encoder reranking, and a golden-set eval
-that scores real accuracy, not vibes.
+Notes: embeddings and the vector index are local/in-process (no external
+vector DB) -- fine at this corpus size. Indexes the markdown corpus only,
+not the PDF copy.
 """
 
 import glob
@@ -39,7 +32,7 @@ CHUNK_OVERLAP = 120
 
 
 # ---------------------------------------------------------------------------
-# Lab A equivalent -- ingest, chunk, embed, index
+# Ingest, chunk, embed, index
 # ---------------------------------------------------------------------------
 
 def load_and_chunk_corpus() -> list[dict]:
@@ -111,7 +104,7 @@ def retrieve(query: str, k: int = 5, pool: int = 10) -> list[int]:
 
 
 # ---------------------------------------------------------------------------
-# Lab B equivalent -- grounded, cited answers + prompt-injection defense
+# Grounded, cited answers + prompt-injection defense
 # ---------------------------------------------------------------------------
 
 def build_answer_prompt(query: str, chunk_ids: list[int]) -> tuple[str, str]:
@@ -144,7 +137,7 @@ def answer(query: str, k: int = 5) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Lab C equivalent -- evaluate against the golden set, real numbers
+# Evaluate against the golden set, real numbers
 # ---------------------------------------------------------------------------
 
 def run_eval() -> None:
