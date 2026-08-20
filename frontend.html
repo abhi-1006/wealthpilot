@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WealthPilot</title>
+<style>
+  :root {
+    --bg: #F5F4EF; --panel: #FFFFFF; --text: #3D3D3A; --muted: #8A8A82;
+    --accent: #DA7756; --accent-dark: #C15F3C; --border: #E5E3DC;
+    --user-bubble: #EFEEE8; --good: #4a8a5c; --warn: #b8862e; --bad: #c1503c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    height: 100vh; display: flex; flex-direction: column;
+  }
+  header {
+    padding: 18px 24px; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 10px;
+  }
+  header .logo {
+    width: 30px; height: 30px; border-radius: 8px; background: var(--accent);
+    display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 15px;
+  }
+  header .title { font-size: 15px; font-weight: 600; }
+  header .subtitle { font-size: 12px; color: var(--muted); }
+
+  .chat { flex: 1; overflow-y: auto; padding: 24px; }
+  .thread { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px; }
+
+  .empty-state { max-width: 620px; margin: 60px auto; text-align: center; }
+  .empty-state h1 { font-size: 26px; font-weight: 600; margin-bottom: 8px; }
+  .empty-state p { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .chip {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 10px 14px; font-size: 13px; cursor: pointer; color: var(--text); text-align: left;
+    transition: border-color .15s;
+  }
+  .chip:hover { border-color: var(--accent); }
+
+  .msg { display: flex; }
+  .msg.user { justify-content: flex-end; }
+  .bubble {
+    max-width: 78%; padding: 12px 16px; border-radius: 16px; font-size: 14.5px; line-height: 1.6;
+    white-space: pre-wrap;
+  }
+  .msg.user .bubble { background: var(--user-bubble); border-bottom-right-radius: 4px; }
+  .msg.assistant .bubble { background: transparent; padding-left: 0; padding-right: 0; max-width: 100%; }
+  .msg.assistant .avatar {
+    width: 26px; height: 26px; border-radius: 7px; background: var(--accent); flex-shrink: 0;
+    margin-right: 10px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 12px; font-weight: 700;
+  }
+  .msg.assistant { align-items: flex-start; }
+
+  .decision-card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-top: 4px;
+  }
+  .decision-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+  .stat { background: var(--bg); border-radius: 8px; padding: 8px 12px; flex: 1; min-width: 120px; }
+  .stat .label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .stat .value { font-size: 15px; font-weight: 600; margin-top: 2px; }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+  .badge.declined { background: rgba(193,80,60,.12); color: var(--bad); }
+  .badge.borderline { background: rgba(184,134,46,.12); color: var(--warn); }
+  .badge.pending_human_signoff, .badge.human_review { background: rgba(218,119,86,.12); color: var(--accent-dark); }
+  .reasons { margin-top: 8px; font-size: 13px; color: var(--muted); }
+  .typing { color: var(--muted); font-size: 13px; font-style: italic; }
+  .error-bubble { color: var(--bad); font-size: 13.5px; }
+
+  .composer { padding: 16px 24px 22px; }
+  .composer-inner { max-width: 720px; margin: 0 auto; }
+  .input-bar {
+    display: flex; align-items: center; gap: 8px; background: var(--panel);
+    border: 1px solid var(--border); border-radius: 16px; padding: 6px 6px 6px 16px;
+  }
+  .input-bar input {
+    flex: 1; border: none; outline: none; background: transparent; font-size: 14.5px;
+    padding: 10px 0; font-family: inherit; color: var(--text);
+  }
+  .input-bar button {
+    width: 34px; height: 34px; border-radius: 10px; border: none; background: var(--accent);
+    color: white; cursor: pointer; font-size: 16px; display: flex; align-items: center; justify-content: center;
+  }
+  .input-bar button:disabled { opacity: .4; cursor: default; }
+  .hint { text-align: center; font-size: 11px; color: var(--muted); margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">W</div>
+  <div>
+    <div class="title">WealthPilot</div>
+    <div class="subtitle">Ashva Capital — SME Underwriting Assistant</div>
+  </div>
+</header>
+
+<div class="chat" id="chat">
+  <div class="empty-state" id="emptyState">
+    <h1>How can I help with underwriting today?</h1>
+    <p>Ask a policy question, or run a sample application through the pipeline.</p>
+    <div class="chips">
+      <div class="chip" onclick="sendPreset('What is the minimum DSCR for SME term loans?')">What is the minimum DSCR for SME term loans?</div>
+      <div class="chip" onclick="sendPreset('What protected attributes must never enter a credit decision?')">What protected attributes must never enter a credit decision?</div>
+      <div class="chip" onclick="runUnderwrite(0)">Underwrite sample application #1</div>
+      <div class="chip" onclick="runUnderwrite(1)">Underwrite sample application #2</div>
+      <div class="chip" onclick="runUnderwrite(2)">Underwrite sample application #3</div>
+    </div>
+  </div>
+  <div class="thread" id="thread"></div>
+</div>
+
+<div class="composer">
+  <div class="composer-inner">
+    <div class="input-bar">
+      <input type="text" id="question" placeholder="Ask about underwriting policy…" onkeydown="if(event.key==='Enter') send()">
+      <button id="sendBtn" onclick="send()">↑</button>
+    </div>
+    <div class="hint">Try "underwrite application 1" to run a sample decision, or ask any policy question.</div>
+  </div>
+</div>
+
+<script>
+const thread = document.getElementById('thread');
+const emptyState = document.getElementById('emptyState');
+const chat = document.getElementById('chat');
+
+function hideEmptyState() { emptyState.style.display = 'none'; }
+
+function addUserMsg(text) {
+  hideEmptyState();
+  const div = document.createElement('div');
+  div.className = 'msg user';
+  div.innerHTML = `<div class="bubble">${escapeHtml(text)}</div>`;
+  thread.appendChild(div);
+  scrollDown();
+}
+
+function addAssistantMsg(innerHtml) {
+  const div = document.createElement('div');
+  div.className = 'msg assistant';
+  div.style.display = 'flex';
+  div.innerHTML = `<div class="avatar">W</div><div class="bubble">${innerHtml}</div>`;
+  thread.appendChild(div);
+  scrollDown();
+  return div;
+}
+
+function scrollDown() { chat.scrollTop = chat.scrollHeight; }
+function escapeHtml(s) { return s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+
+function sendPreset(text) {
+  document.getElementById('question').value = text;
+  send();
+}
+
+async function send() {
+  const input = document.getElementById('question');
+  const q = input.value.trim();
+  if (!q) return;
+  input.value = '';
+  addUserMsg(q);
+
+  const underwriteMatch = q.toLowerCase().match(/underwrite.*?(\d+)/);
+  if (underwriteMatch) {
+    const idx = parseInt(underwriteMatch[1]) - 1;
+    await runUnderwrite(idx >= 0 ? idx : 0, true);
+    return;
+  }
+  await askPolicy(q, true);
+}
+
+async function askPolicy(q, alreadyAddedUser) {
+  if (!alreadyAddedUser) addUserMsg(q);
+  const placeholder = addAssistantMsg('<span class="typing">Retrieving policy and generating a grounded answer…</span>');
+  try {
+    const resp = await fetch('/decision', {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({question: q})
+    });
+    const data = await resp.json();
+    if (resp.status === 422) {
+      placeholder.querySelector('.bubble') ? null : null;
+      placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble error-bubble">Blocked by guardrails: ${JSON.stringify(data.detail.flags)}</div>`;
+    } else if (!resp.ok) {
+      placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble error-bubble">Error: ${JSON.stringify(data)}</div>`;
+    } else {
+      placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble">${data.answer}</div>`;
+    }
+  } catch (e) {
+    placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble error-bubble">Request failed: ${e}</div>`;
+  }
+  scrollDown();
+}
+
+async function runUnderwrite(i, alreadyAddedUser) {
+  if (!alreadyAddedUser) addUserMsg(`Underwrite sample application #${i + 1}`);
+  const placeholder = addAssistantMsg('<span class="typing">Parsing application and computing risk signals…</span>');
+  try {
+    const resp = await fetch('/underwrite/' + i);
+    const d = await resp.json();
+    if (!resp.ok) {
+      placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble error-bubble">Error: ${JSON.stringify(d)}</div>`;
+      return;
+    }
+    placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble">
+      <div class="decision-card">
+        <div class="decision-row">
+          <div class="stat"><div class="label">Application</div><div class="value">${d.application_id}</div></div>
+          <div class="stat"><div class="label">Business</div><div class="value">${d.business_name}</div></div>
+          <div class="stat"><div class="label">Sector</div><div class="value">${d.sector}</div></div>
+        </div>
+        <div class="decision-row">
+          <div class="stat"><div class="label">Requested</div><div class="value">₹${d.requested_amount_inr.toLocaleString()}</div></div>
+          <div class="stat"><div class="label">DSCR</div><div class="value">${d.dscr ?? '—'}</div></div>
+          <div class="stat"><div class="label">Bureau score</div><div class="value">${d.bureau_score ?? '—'}</div></div>
+        </div>
+        <div>Decision: <span class="badge ${d.decision}">${d.decision.replace(/_/g,' ')}</span></div>
+        <div class="reasons">${d.reasons.join('<br>')}</div>
+      </div>
+    </div>`;
+  } catch (e) {
+    placeholder.innerHTML = `<div class="avatar">W</div><div class="bubble error-bubble">Request failed: ${e}</div>`;
+  }
+  scrollDown();
+}
+</script>
+</body>
+</html>
