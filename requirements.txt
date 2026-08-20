@@ -1,4 +1,6 @@
 litellm
+langchain-google-genai
+qdrant-client
 pydantic
 python-dotenv
 groq
@@ -19,3 +21,10 @@ pandas
 fastapi
 uvicorn
 requests
+ragas
+deepeval
+trulens-core
+trulens-providers-litellm
+google-genai
+pyngrok
+nest_asyncio
