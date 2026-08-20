@@ -1,0 +1,351 @@
+applicant_id,business_name,sector,annual_revenue_inr,ebitda_inr,existing_debt_inr,months_operating,gst_registered,prior_applications
+ASH-A-00000,Zavala Enterprises,Light Engineering,9000000,1286492,1386130,28,True,0
+ASH-A-00001,Herrera Enterprises,Auto Components,85000000,16713441,34114701,45,True,3
+ASH-A-00002,Crosby Traders,Food Processing,85000000,12772247,3103194,41,True,0
+ASH-A-00003,Wilson Enterprises,Food Processing,4500000,183111,2315408,65,True,0
+ASH-A-00004,Waller Traders,Logistics,18000000,2262382,2308407,132,True,1
+ASH-A-00005,White Traders,Textiles,18000000,2153752,5938737,26,True,1
+ASH-A-00006,Estes Industries,Logistics,9000000,1493946,4111778,25,True,2
+ASH-A-00007,Baker Industries,Pharma Packaging,4500000,694590,1732501,159,True,2
+ASH-A-00008,Rodriguez Works,Retail Trade,4500000,847819,2151171,141,True,2
+ASH-A-00009,Hamilton Industries,Food Processing,9000000,459823,2889449,237,True,4
+ASH-A-00010,Chandler Enterprises,IT Services,18000000,758876,8707943,28,True,2
+ASH-A-00011,Edwards Exports,Food Processing,85000000,12108777,40174978,87,True,3
+ASH-A-00012,Obrien Works,Retail Trade,9000000,1596728,1833826,196,True,4
+ASH-A-00013,Dixon Enterprises,Auto Components,4500000,511883,2573925,89,False,3
+ASH-A-00014,Cruz Works,IT Services,18000000,1214698,8632952,104,True,0
+ASH-A-00015,Ray Traders,Pharma Packaging,4500000,981707,1849164,108,True,3
+ASH-A-00016,Scott Industries,Light Engineering,85000000,12471938,10161006,30,True,3
+ASH-A-00017,Fletcher Traders,Auto Components,4500000,340182,1454668,46,True,4
+ASH-A-00018,Smith Industries,Logistics,9000000,1148186,4233815,116,True,1
+ASH-A-00019,Frost Enterprises,Auto Components,18000000,3835063,782801,88,True,4
+ASH-A-00020,Ryan Industries,Logistics,9000000,1200395,2891254,61,True,0
+ASH-A-00021,Ball Industries,Auto Components,9000000,1381343,4001736,115,True,4
+ASH-A-00022,Harmon Exports,Retail Trade,4500000,456288,1092062,182,True,2
+ASH-A-00023,Lambert Works,Food Processing,42000000,1813885,10101232,69,True,2
+ASH-A-00024,Diaz Industries,Auto Components,85000000,13098232,49826658,127,True,4
+ASH-A-00025,Jones Exports,Auto Components,9000000,1491293,5275856,88,True,4
+ASH-A-00026,Beck Exports,Logistics,4500000,838790,728614,150,True,0
+ASH-A-00027,Rivera Exports,Food Processing,9000000,982312,867879,88,True,3
+ASH-A-00028,Edwards Exports,Retail Trade,18000000,936838,4558044,55,True,2
+ASH-A-00029,Charles Industries,Auto Components,85000000,16370923,3260924,69,True,0
+ASH-A-00030,Cortez Traders,IT Services,9000000,1270242,4584552,87,True,2
+ASH-A-00031,Evans Exports,Logistics,42000000,7910471,17631475,158,True,2
+ASH-A-00032,Parker Enterprises,Logistics,85000000,11409583,27853140,69,True,3
+ASH-A-00033,Ortiz Enterprises,Retail Trade,85000000,7393114,7959292,12,True,3
+ASH-A-00034,Powell Traders,IT Services,1200000,215572,774524,120,True,4
+ASH-A-00035,Phillips Exports,IT Services,4500000,794353,315153,76,True,1
+ASH-A-00036,Martinez Exports,IT Services,85000000,7756870,32403038,88,False,0
+ASH-A-00037,Fisher Traders,IT Services,1200000,127665,245909,190,True,0
+ASH-A-00038,Bentley Works,Auto Components,85000000,9451726,18045228,220,True,2
+ASH-A-00039,Byrd Exports,Textiles,9000000,1790880,326776,189,True,3
+ASH-A-00040,Orr Enterprises,Light Engineering,1200000,80739,407768,188,True,2
+ASH-A-00041,Gilbert Traders,Food Processing,9000000,1028479,4392476,132,True,0
+ASH-A-00042,Turner Works,Pharma Packaging,42000000,6931074,14963062,28,True,3
+ASH-A-00043,Kelley Enterprises,Retail Trade,4500000,364190,165303,180,True,0
+ASH-A-00044,Smith Industries,IT Services,85000000,4048640,12099799,65,False,1
+ASH-A-00045,Mitchell Traders,Auto Components,42000000,4609691,17317225,107,True,2
+ASH-A-00046,Jordan Enterprises,Pharma Packaging,18000000,2502100,469521,156,True,1
+ASH-A-00047,Carpenter Works,Textiles,42000000,4321324,2201129,231,True,1
+ASH-A-00048,Pena Industries,Light Engineering,18000000,2457385,10707847,196,True,2
+ASH-A-00049,Marshall Traders,Pharma Packaging,42000000,2888566,5503295,161,True,1
+ASH-A-00050,Ramos Traders,Pharma Packaging,9000000,553051,1669483,13,True,4
+ASH-A-00051,Lewis Industries,Light Engineering,18000000,1085126,4533189,33,True,1
+ASH-A-00052,Kennedy Exports,Retail Trade,4500000,854673,1972053,232,True,2
+ASH-A-00053,Santana Works,Textiles,9000000,1409484,1344388,233,False,2
+ASH-A-00054,Flynn Exports,Textiles,4500000,431020,633038,52,True,1
+ASH-A-00055,Jackson Works,Auto Components,18000000,2203545,4571826,198,True,3
+ASH-A-00056,Miller Exports,Retail Trade,18000000,3295810,7804184,69,True,0
+ASH-A-00057,Robertson Enterprises,Textiles,1200000,233147,738493,6,True,3
+ASH-A-00058,Schultz Exports,Light Engineering,85000000,4887659,20334749,171,True,3
+ASH-A-00059,Rogers Traders,Food Processing,85000000,7683673,36112834,82,True,0
+ASH-A-00060,Cardenas Industries,Retail Trade,9000000,1100222,5453637,210,False,0
+ASH-A-00061,Potter Enterprises,IT Services,85000000,6071093,6220418,191,True,4
+ASH-A-00062,Chambers Exports,Retail Trade,85000000,7532022,38833939,128,True,1
+ASH-A-00063,Walker Enterprises,Pharma Packaging,4500000,729195,87451,133,True,3
+ASH-A-00064,Gonzalez Industries,Textiles,18000000,2588704,515194,22,False,2
+ASH-A-00065,Johnson Traders,IT Services,85000000,6501289,14767465,177,True,1
+ASH-A-00066,Sanchez Works,Textiles,4500000,986628,129060,150,True,3
+ASH-A-00067,Alvarez Works,Logistics,42000000,7089704,20270958,79,True,4
+ASH-A-00068,Atkinson Works,IT Services,9000000,1242237,2183614,236,True,4
+ASH-A-00069,Jones Industries,Auto Components,42000000,7238073,9467305,50,True,2
+ASH-A-00070,Perry Traders,Retail Trade,18000000,1198331,7870097,233,True,4
+ASH-A-00071,Soto Traders,Pharma Packaging,18000000,1000083,2962443,41,True,2
+ASH-A-00072,Lee Works,IT Services,85000000,14931660,47614447,48,False,2
+ASH-A-00073,Horton Industries,Auto Components,42000000,5763995,22713957,46,True,4
+ASH-A-00074,Snyder Industries,Pharma Packaging,4500000,246212,1225504,34,False,4
+ASH-A-00075,Sanchez Exports,Food Processing,1200000,172300,198679,146,True,1
+ASH-A-00076,Douglas Industries,Auto Components,85000000,10884453,17983173,220,True,4
+ASH-A-00077,Smith Exports,Pharma Packaging,18000000,1429791,4108271,110,True,0
+ASH-A-00078,Potter Works,Light Engineering,4500000,855822,2618560,54,True,4
+ASH-A-00079,Carrillo Works,Light Engineering,1200000,245822,542051,84,True,3
+ASH-A-00080,Rodriguez Industries,Food Processing,9000000,1901511,1117388,10,True,0
+ASH-A-00081,Coleman Industries,Food Processing,4500000,234287,1323853,36,True,2
+ASH-A-00082,Thompson Works,Textiles,85000000,14076623,16586905,105,True,2
+ASH-A-00083,Rubio Exports,IT Services,18000000,2778111,6942033,179,True,0
+ASH-A-00084,Holmes Traders,Auto Components,18000000,820570,8197388,226,True,4
+ASH-A-00085,Williams Works,Auto Components,1200000,253010,534181,12,True,3
+ASH-A-00086,Wright Works,Retail Trade,1200000,165446,64712,191,True,0
+ASH-A-00087,Charles Works,Auto Components,18000000,1502066,11512802,14,True,4
+ASH-A-00088,Bryant Works,Logistics,85000000,12789873,5246195,181,True,0
+ASH-A-00089,Solis Works,Food Processing,42000000,5475668,12644813,184,True,4
+ASH-A-00090,Contreras Enterprises,Retail Trade,85000000,12360614,38576465,131,True,3
+ASH-A-00091,Travis Industries,Textiles,9000000,830264,1938781,34,True,0
+ASH-A-00092,Larson Works,IT Services,4500000,381724,1132863,196,True,1
+ASH-A-00093,Dodson Enterprises,Retail Trade,18000000,1311876,3978823,180,True,3
+ASH-A-00094,Vance Works,Food Processing,4500000,262245,407175,195,False,4
+ASH-A-00095,Salazar Enterprises,IT Services,42000000,5430861,21685409,116,True,4
+ASH-A-00096,Ball Traders,Food Processing,85000000,9804956,1852911,117,True,3
+ASH-A-00097,Wagner Enterprises,Food Processing,1200000,104759,739956,97,True,4
+ASH-A-00098,Rivas Industries,Food Processing,4500000,199528,252654,53,True,3
+ASH-A-00099,Kelley Exports,Auto Components,85000000,11927737,26402855,208,True,4
+ASH-A-00100,Merritt Enterprises,Textiles,18000000,1472484,1724430,40,True,3
+ASH-A-00101,Manning Traders,Textiles,1200000,158202,9489,140,True,4
+ASH-A-00102,Wells Enterprises,Retail Trade,42000000,8335707,3741786,68,True,1
+ASH-A-00103,Green Works,IT Services,4500000,567774,289712,105,True,4
+ASH-A-00104,Wright Industries,Light Engineering,1200000,233294,113414,200,True,4
+ASH-A-00105,Walsh Exports,Light Engineering,1200000,101366,587662,220,True,1
+ASH-A-00106,Cannon Works,Textiles,9000000,1578840,251017,88,True,0
+ASH-A-00107,Boyd Traders,Pharma Packaging,4500000,544360,2446389,63,True,1
+ASH-A-00108,Sims Exports,Pharma Packaging,18000000,2813172,8838532,46,True,4
+ASH-A-00109,Hill Works,Food Processing,9000000,1061041,180846,22,True,1
+ASH-A-00110,Jones Enterprises,Auto Components,85000000,7644058,15516049,172,True,2
+ASH-A-00111,Mitchell Exports,Auto Components,9000000,1849309,5003966,126,True,3
+ASH-A-00112,Nelson Exports,Light Engineering,85000000,10580719,5027070,131,False,4
+ASH-A-00113,Flores Exports,Food Processing,42000000,3582042,7322177,75,True,4
+ASH-A-00114,Fernandez Industries,Auto Components,42000000,8686757,8849686,67,True,2
+ASH-A-00115,Taylor Industries,Auto Components,9000000,1198628,2407504,73,True,1
+ASH-A-00116,Hall Industries,Retail Trade,42000000,3116143,18727244,188,True,2
+ASH-A-00117,Benson Works,Light Engineering,4500000,274940,2114021,80,True,1
+ASH-A-00118,Mccarthy Traders,Light Engineering,42000000,8387785,22101465,101,True,3
+ASH-A-00119,Brown Traders,IT Services,85000000,11622351,8085280,161,True,0
+ASH-A-00120,Russell Exports,Pharma Packaging,18000000,730585,2210458,71,False,3
+ASH-A-00121,Daniels Exports,Retail Trade,42000000,5544055,11479464,74,True,3
+ASH-A-00122,Perry Works,Food Processing,85000000,10688432,21375379,36,True,0
+ASH-A-00123,Clark Enterprises,Textiles,9000000,1732423,1622532,146,True,1
+ASH-A-00124,Fisher Works,Logistics,1200000,56626,515031,21,True,2
+ASH-A-00125,Stein Traders,Retail Trade,42000000,4929307,6292331,164,True,2
+ASH-A-00126,Silva Traders,Logistics,42000000,2826873,15116289,87,True,1
+ASH-A-00127,Dominguez Industries,Textiles,18000000,3812493,1066779,195,True,2
+ASH-A-00128,Gates Enterprises,Food Processing,18000000,1517665,4754905,67,True,1
+ASH-A-00129,Cannon Industries,Retail Trade,4500000,266983,698404,84,True,4
+ASH-A-00130,James Works,Logistics,18000000,1472265,9913201,110,True,3
+ASH-A-00131,Smith Works,Pharma Packaging,4500000,198651,2237788,58,False,3
+ASH-A-00132,Bell Exports,Auto Components,18000000,1763539,5838676,163,True,3
+ASH-A-00133,Molina Industries,Auto Components,42000000,2772538,2111844,220,True,3
+ASH-A-00134,Castaneda Works,Logistics,4500000,356521,1033301,76,True,2
+ASH-A-00135,Ashley Works,IT Services,4500000,958130,2007989,150,True,0
+ASH-A-00136,Barnes Enterprises,Pharma Packaging,18000000,2572167,4206390,11,True,3
+ASH-A-00137,Adkins Enterprises,Pharma Packaging,18000000,1545959,2674114,99,False,2
+ASH-A-00138,Payne Industries,Light Engineering,18000000,1430003,6850286,138,True,1
+ASH-A-00139,Morrison Works,Auto Components,1200000,58363,178292,187,False,0
+ASH-A-00140,Walker Exports,Textiles,42000000,3572956,14339430,71,True,2
+ASH-A-00141,Robinson Works,Retail Trade,4500000,885517,544108,110,True,4
+ASH-A-00142,Graham Industries,Food Processing,1200000,182124,446635,206,True,1
+ASH-A-00143,Johnson Exports,IT Services,9000000,1886066,5235293,66,True,1
+ASH-A-00144,Rogers Enterprises,Food Processing,42000000,7522642,7344904,206,True,0
+ASH-A-00145,Shelton Exports,Auto Components,18000000,3063195,1786807,53,True,0
+ASH-A-00146,Powell Industries,Retail Trade,9000000,1191458,121200,135,False,3
+ASH-A-00147,Martin Industries,Textiles,4500000,559944,2476121,67,True,2
+ASH-A-00148,Mcdonald Traders,IT Services,42000000,3538164,4781458,34,True,1
+ASH-A-00149,Anderson Exports,Textiles,85000000,4426232,20852736,6,True,4
+ASH-A-00150,Dean Works,Pharma Packaging,18000000,3599688,5459456,171,False,2
+ASH-A-00151,Johnson Exports,Pharma Packaging,42000000,7362332,14290742,110,True,3
+ASH-A-00152,Long Enterprises,Logistics,4500000,239467,2909540,221,True,4
+ASH-A-00153,Elliott Works,Pharma Packaging,18000000,1690438,279347,130,True,0
+ASH-A-00154,Johnson Works,Light Engineering,4500000,544451,1727007,200,True,2
+ASH-A-00155,Day Industries,Light Engineering,18000000,773064,2656736,118,True,3
+ASH-A-00156,Taylor Works,Auto Components,18000000,3578922,5420601,112,False,1
+ASH-A-00157,Murray Enterprises,Retail Trade,4500000,482968,1025373,238,True,3
+ASH-A-00158,Williams Exports,Retail Trade,1200000,124631,399797,128,True,3
+ASH-A-00159,Gray Traders,Auto Components,1200000,89791,719148,48,True,0
+ASH-A-00160,Lewis Exports,Retail Trade,4500000,228508,1490307,167,True,0
+ASH-A-00161,Murphy Works,Auto Components,18000000,3307176,5385404,165,True,2
+ASH-A-00162,Juarez Exports,Food Processing,1200000,238843,591624,116,True,0
+ASH-A-00163,Gray Exports,Food Processing,85000000,18679261,8471482,217,True,3
+ASH-A-00164,Walton Traders,Light Engineering,85000000,5575831,50553463,29,True,2
+ASH-A-00165,Decker Industries,Textiles,18000000,862603,141742,40,True,4
+ASH-A-00166,King Works,Light Engineering,4500000,525798,1661946,240,True,0
+ASH-A-00167,Miller Enterprises,Retail Trade,4500000,769062,2302010,62,True,1
+ASH-A-00168,Smith Works,Food Processing,85000000,4623533,25393247,236,True,2
+ASH-A-00169,Ryan Traders,Auto Components,18000000,2766139,3820436,45,True,4
+ASH-A-00170,Cooke Traders,Logistics,42000000,3390063,606747,129,True,4
+ASH-A-00171,Bell Works,Pharma Packaging,9000000,443084,3461403,211,True,0
+ASH-A-00172,Santos Exports,Logistics,4500000,864035,640436,69,True,1
+ASH-A-00173,Harrington Exports,Auto Components,1200000,137131,311883,151,True,0
+ASH-A-00174,Pearson Industries,IT Services,4500000,948278,1938930,204,True,0
+ASH-A-00175,Webster Works,Pharma Packaging,18000000,1219108,5536137,13,True,2
+ASH-A-00176,Herring Traders,Logistics,1200000,153088,778282,107,True,3
+ASH-A-00177,Gonzalez Industries,Retail Trade,18000000,1508084,9412995,92,True,2
+ASH-A-00178,Smith Works,Food Processing,42000000,2440988,2247070,194,True,4
+ASH-A-00179,Hernandez Works,Food Processing,18000000,3747372,9284995,184,True,0
+ASH-A-00180,Martinez Works,Light Engineering,1200000,55059,227309,221,True,2
+ASH-A-00181,Caldwell Exports,Food Processing,85000000,4018576,49331604,90,True,4
+ASH-A-00182,Elliott Enterprises,Textiles,1200000,225428,149953,49,False,3
+ASH-A-00183,Robinson Traders,Retail Trade,1200000,180933,410348,218,True,1
+ASH-A-00184,Lyons Works,Retail Trade,1200000,81997,605338,137,True,4
+ASH-A-00185,Wang Traders,Textiles,4500000,498648,990573,47,True,3
+ASH-A-00186,Jackson Exports,Retail Trade,9000000,835718,4128095,108,True,1
+ASH-A-00187,Lawson Traders,Logistics,9000000,749903,870017,45,True,0
+ASH-A-00188,Adkins Enterprises,Light Engineering,42000000,2494019,12255521,44,True,2
+ASH-A-00189,Wilson Traders,Logistics,9000000,1524197,2546708,37,False,4
+ASH-A-00190,Weiss Exports,Retail Trade,85000000,17742773,11589896,127,True,2
+ASH-A-00191,Oconnell Works,Logistics,4500000,459519,143068,221,True,2
+ASH-A-00192,Rodriguez Industries,IT Services,18000000,2221752,11308664,206,True,2
+ASH-A-00193,Johnson Industries,Auto Components,18000000,3134711,8276399,174,True,4
+ASH-A-00194,Collins Industries,Textiles,85000000,16698364,9070896,70,True,3
+ASH-A-00195,Byrd Industries,Textiles,9000000,1792434,1404136,160,True,2
+ASH-A-00196,Rubio Industries,Pharma Packaging,4500000,211143,26983,98,True,4
+ASH-A-00197,Sanders Traders,Textiles,9000000,529447,4513672,134,True,1
+ASH-A-00198,Espinoza Exports,Retail Trade,9000000,1220007,5204080,157,True,4
+ASH-A-00199,Jones Works,Textiles,4500000,548511,2103388,146,True,3
+ASH-A-00200,Vaughn Traders,Auto Components,1200000,51869,459669,208,True,3
+ASH-A-00201,Burton Exports,Logistics,18000000,3710810,9767185,63,True,2
+ASH-A-00202,Garcia Enterprises,Logistics,85000000,13627013,32020895,107,True,4
+ASH-A-00203,Barton Enterprises,Logistics,4500000,951126,1314056,107,True,0
+ASH-A-00204,Jefferson Traders,Pharma Packaging,1200000,51530,677465,193,True,2
+ASH-A-00205,Burke Enterprises,IT Services,42000000,9155845,5826217,175,True,0
+ASH-A-00206,Martinez Works,Auto Components,4500000,323561,1919099,9,True,0
+ASH-A-00207,Riggs Industries,IT Services,9000000,393519,759783,197,True,1
+ASH-A-00208,Patton Traders,Retail Trade,85000000,9758307,50053988,58,True,2
+ASH-A-00209,Reed Traders,Retail Trade,1200000,263543,539414,169,True,1
+ASH-A-00210,Patterson Enterprises,Logistics,1200000,62252,600864,200,False,1
+ASH-A-00211,Wood Works,Auto Components,1200000,74230,597479,205,True,4
+ASH-A-00212,Hunter Works,Retail Trade,1200000,217667,277882,29,True,3
+ASH-A-00213,Peterson Exports,Retail Trade,4500000,767505,2664440,164,True,0
+ASH-A-00214,Atkinson Industries,Light Engineering,1200000,121893,407227,182,True,3
+ASH-A-00215,Short Traders,Textiles,85000000,8604765,21507621,199,True,4
+ASH-A-00216,Garcia Industries,Light Engineering,18000000,1336065,7458624,204,True,0
+ASH-A-00217,Yu Industries,IT Services,85000000,11929103,25296388,88,True,1
+ASH-A-00218,Reid Enterprises,IT Services,1200000,88625,445332,10,False,2
+ASH-A-00219,Poole Traders,Pharma Packaging,85000000,14870909,410938,86,True,0
+ASH-A-00220,Zimmerman Enterprises,Food Processing,4500000,660237,1384782,147,False,2
+ASH-A-00221,Graham Exports,Textiles,1200000,217807,497702,68,True,3
+ASH-A-00222,Gross Enterprises,Food Processing,9000000,448959,1756199,41,True,3
+ASH-A-00223,Sheppard Traders,Auto Components,4500000,868286,2870332,141,True,3
+ASH-A-00224,Nelson Traders,Pharma Packaging,9000000,396826,5740335,89,True,0
+ASH-A-00225,Morton Exports,Food Processing,4500000,473651,278335,73,True,2
+ASH-A-00226,Medina Industries,Logistics,1200000,173761,61494,18,True,4
+ASH-A-00227,Webb Enterprises,Retail Trade,42000000,8531774,17960662,31,False,0
+ASH-A-00228,Graham Works,Food Processing,9000000,1425793,1573931,19,True,0
+ASH-A-00229,Simon Enterprises,Food Processing,42000000,8419001,1160928,213,True,4
+ASH-A-00230,Adams Traders,Light Engineering,1200000,175624,437728,209,True,2
+ASH-A-00231,Christian Industries,Food Processing,4500000,690979,49273,61,True,1
+ASH-A-00232,Rivas Exports,Logistics,4500000,981613,15462,139,True,4
+ASH-A-00233,Miller Industries,IT Services,85000000,11777725,3280284,60,True,3
+ASH-A-00234,Keith Exports,Retail Trade,4500000,458856,1183222,157,True,4
+ASH-A-00235,Sanchez Traders,Logistics,9000000,1358543,5203971,186,True,4
+ASH-A-00236,Marshall Enterprises,Food Processing,18000000,2033965,2236629,70,True,4
+ASH-A-00237,Bishop Exports,Food Processing,4500000,963411,727681,188,True,1
+ASH-A-00238,Gray Enterprises,Food Processing,85000000,13866242,7346154,61,True,0
+ASH-A-00239,Johnson Enterprises,Logistics,42000000,7102307,22658200,9,True,2
+ASH-A-00240,Rosales Works,Light Engineering,4500000,299059,1895292,37,True,2
+ASH-A-00241,White Works,Retail Trade,18000000,2156654,2358122,168,True,3
+ASH-A-00242,Lewis Industries,Logistics,9000000,1153659,5552486,117,True,0
+ASH-A-00243,Salinas Works,Light Engineering,18000000,918950,10400559,21,True,4
+ASH-A-00244,Peterson Industries,Pharma Packaging,9000000,538874,1680178,78,True,3
+ASH-A-00245,Beard Works,Food Processing,1200000,174680,271317,170,True,1
+ASH-A-00246,Haynes Traders,IT Services,85000000,18141675,14897582,128,True,1
+ASH-A-00247,Hill Industries,IT Services,1200000,131069,769464,147,True,1
+ASH-A-00248,Smith Traders,Auto Components,1200000,160758,538128,75,True,4
+ASH-A-00249,Vaughan Works,Textiles,9000000,462007,5599351,33,True,2
+ASH-A-00250,Miller Industries,Light Engineering,9000000,1376581,5718092,6,True,0
+ASH-A-00251,Cortez Exports,Pharma Packaging,9000000,1280080,8544,55,True,2
+ASH-A-00252,Freeman Works,Retail Trade,85000000,14049212,15024771,57,True,4
+ASH-A-00253,Chang Exports,Auto Components,42000000,2406439,12881627,56,False,2
+ASH-A-00254,Vaughn Traders,Auto Components,1200000,149818,188110,91,True,3
+ASH-A-00255,Brewer Enterprises,Food Processing,42000000,2460134,24458760,65,True,0
+ASH-A-00256,Henry Works,Pharma Packaging,4500000,613334,2160449,32,True,4
+ASH-A-00257,Mcguire Industries,Logistics,18000000,3111199,2556104,30,True,0
+ASH-A-00258,Davis Works,Food Processing,42000000,9174345,17554424,233,True,1
+ASH-A-00259,Walker Traders,Logistics,1200000,180143,72937,70,True,4
+ASH-A-00260,Holt Industries,Textiles,85000000,10682990,15308752,48,True,0
+ASH-A-00261,Torres Industries,Pharma Packaging,18000000,3595397,1171094,134,True,4
+ASH-A-00262,Perkins Enterprises,Pharma Packaging,9000000,1488134,5467730,198,True,1
+ASH-A-00263,Kennedy Enterprises,Textiles,1200000,192136,150184,216,True,0
+ASH-A-00264,Schmidt Industries,Logistics,85000000,16057345,10919867,81,True,3
+ASH-A-00265,Coleman Exports,Light Engineering,4500000,205507,2122800,191,True,2
+ASH-A-00266,Reese Works,Light Engineering,85000000,13925132,46057486,46,True,0
+ASH-A-00267,Rivera Traders,Textiles,4500000,611754,2001985,234,True,0
+ASH-A-00268,Warner Industries,Food Processing,4500000,304529,317186,64,True,1
+ASH-A-00269,Nelson Exports,Auto Components,9000000,1795948,920773,158,True,4
+ASH-A-00270,King Works,Pharma Packaging,4500000,319429,2447318,119,True,2
+ASH-A-00271,Martinez Industries,Textiles,42000000,3163798,8068084,203,True,0
+ASH-A-00272,Lee Enterprises,Light Engineering,42000000,8490281,6271842,185,True,0
+ASH-A-00273,Wilson Works,Pharma Packaging,42000000,8554557,15852081,194,True,0
+ASH-A-00274,Herrera Industries,Logistics,42000000,7720008,6565183,18,True,4
+ASH-A-00275,Gill Enterprises,Logistics,42000000,5754861,2281403,140,True,2
+ASH-A-00276,Lopez Traders,Light Engineering,9000000,1701538,257508,131,True,1
+ASH-A-00277,Robinson Industries,Food Processing,4500000,599543,1827657,24,True,4
+ASH-A-00278,Washington Traders,IT Services,1200000,83561,215522,222,True,0
+ASH-A-00279,Hardy Enterprises,Textiles,1200000,234383,564010,27,True,4
+ASH-A-00280,Bray Enterprises,Logistics,1200000,151848,628191,118,True,4
+ASH-A-00281,Warren Traders,Textiles,85000000,15448226,41353063,160,True,1
+ASH-A-00282,Campbell Traders,Pharma Packaging,9000000,1448929,4648933,135,True,2
+ASH-A-00283,Garcia Industries,Food Processing,9000000,1244155,865470,177,True,3
+ASH-A-00284,Lee Works,Food Processing,9000000,603935,4822488,79,True,0
+ASH-A-00285,Perez Works,IT Services,9000000,425420,2542936,12,True,0
+ASH-A-00286,White Traders,Logistics,1200000,129625,496600,28,True,4
+ASH-A-00287,Smith Exports,Light Engineering,9000000,1016397,3293558,66,True,2
+ASH-A-00288,Ferguson Industries,Auto Components,42000000,4473921,1337642,85,True,4
+ASH-A-00289,Hill Enterprises,Textiles,18000000,2745054,620529,59,True,4
+ASH-A-00290,Mccann Exports,IT Services,42000000,6352768,21472083,10,True,4
+ASH-A-00291,Tran Industries,Food Processing,4500000,229176,2345831,37,True,2
+ASH-A-00292,Terry Enterprises,Textiles,42000000,3657755,20018680,225,True,4
+ASH-A-00293,Martinez Works,Logistics,18000000,2390749,4423628,201,True,0
+ASH-A-00294,Oneill Traders,Logistics,18000000,1221749,766707,184,True,2
+ASH-A-00295,Henry Industries,Retail Trade,85000000,9636910,8762255,68,True,1
+ASH-A-00296,Salas Exports,Pharma Packaging,9000000,706476,1811072,205,True,3
+ASH-A-00297,Andrews Works,Retail Trade,1200000,252217,492673,46,True,2
+ASH-A-00298,Harrison Enterprises,Light Engineering,9000000,1013312,1340112,178,True,4
+ASH-A-00299,Alexander Industries,Retail Trade,85000000,6332582,47817108,192,True,0
+ASH-A-00300,Lopez Works,Retail Trade,18000000,2052260,3273515,80,True,4
+ASH-A-00301,Williams Enterprises,Logistics,42000000,7204697,10056549,148,True,4
+ASH-A-00302,Everett Traders,Auto Components,4500000,767650,392692,162,True,0
+ASH-A-00303,Woods Traders,Textiles,85000000,7832351,35309240,224,True,1
+ASH-A-00304,Short Industries,Auto Components,4500000,337406,1539171,156,True,0
+ASH-A-00305,Morales Industries,Light Engineering,18000000,3331271,1053674,188,True,4
+ASH-A-00306,Jones Enterprises,Textiles,18000000,2684919,2323840,157,True,1
+ASH-A-00307,Soto Industries,Light Engineering,18000000,2032182,3779335,63,True,3
+ASH-A-00308,Brown Enterprises,Food Processing,1200000,246316,477262,135,True,2
+ASH-A-00309,Hernandez Enterprises,IT Services,18000000,3832797,10043027,205,True,4
+ASH-A-00310,Hart Enterprises,Light Engineering,1200000,93079,20724,213,True,0
+ASH-A-00311,Torres Works,Food Processing,9000000,1250579,4899941,140,False,1
+ASH-A-00312,Mcknight Works,Auto Components,85000000,10625777,38831832,73,True,4
+ASH-A-00313,Wilson Works,Textiles,1200000,238572,530494,106,True,2
+ASH-A-00314,Duran Enterprises,Food Processing,4500000,432094,207419,37,True,4
+ASH-A-00315,Obrien Enterprises,Retail Trade,9000000,725867,2322462,128,True,0
+ASH-A-00316,Gibbs Industries,Pharma Packaging,42000000,3151976,22248037,46,False,4
+ASH-A-00317,Perez Exports,Light Engineering,42000000,2235671,12320269,91,True,0
+ASH-A-00318,Mills Traders,Textiles,1200000,198210,668676,81,True,4
+ASH-A-00319,Hayes Enterprises,Auto Components,18000000,2762748,9102815,92,True,3
+ASH-A-00320,Ramos Works,Textiles,18000000,2402659,1123028,197,True,0
+ASH-A-00321,Dalton Industries,Textiles,1200000,160375,158482,105,True,4
+ASH-A-00322,Branch Enterprises,Pharma Packaging,1200000,81262,355390,88,False,1
+ASH-A-00323,Torres Industries,Logistics,1200000,102869,265616,19,True,4
+ASH-A-00324,Oliver Industries,Pharma Packaging,42000000,6004633,13251041,222,True,4
+ASH-A-00325,Lynch Industries,Logistics,85000000,18453974,45934382,80,True,0
+ASH-A-00326,Singh Industries,Retail Trade,1200000,241613,3868,141,False,1
+ASH-A-00327,Meza Traders,Logistics,9000000,1132556,3902574,146,True,4
+ASH-A-00328,Clark Works,Textiles,4500000,351688,1887021,163,True,0
+ASH-A-00329,Clark Traders,IT Services,1200000,197279,14082,216,True,2
+ASH-A-00330,Guerrero Exports,Food Processing,42000000,7752846,7801368,52,False,3
+ASH-A-00331,Moore Exports,Light Engineering,9000000,1012625,3497424,152,True,3
+ASH-A-00332,Thompson Exports,Pharma Packaging,42000000,8254024,17929853,218,True,4
+ASH-A-00333,Jones Works,Food Processing,42000000,8401984,8068447,143,True,4
+ASH-A-00334,Smith Exports,Logistics,18000000,1196059,6614476,81,True,4
+ASH-A-00335,Hayes Exports,Logistics,9000000,1904327,5209657,33,True,1
+ASH-A-00336,Wheeler Industries,Pharma Packaging,9000000,1014823,3275115,20,True,0
+ASH-A-00337,Carter Works,Light Engineering,42000000,4688833,3213664,201,True,0
+ASH-A-00338,Hall Works,Light Engineering,85000000,14863931,17099972,191,True,4
+ASH-A-00339,Mann Traders,Auto Components,4500000,706653,2628176,139,True,4
+ASH-A-00340,Warner Traders,Textiles,1200000,241806,748816,233,True,1
+ASH-A-00341,Gibson Exports,Pharma Packaging,85000000,8622497,30346183,223,True,3
+ASH-A-00342,Mcdaniel Traders,Light Engineering,42000000,4962140,7262852,206,True,4
+ASH-A-00343,Bradshaw Traders,Pharma Packaging,18000000,2762343,10804498,61,True,3
+ASH-A-00344,French Enterprises,Light Engineering,18000000,3203430,9444619,86,True,0
+ASH-A-00345,Weber Industries,Retail Trade,9000000,1005846,871369,156,True,2
+ASH-A-00346,Guerrero Traders,Textiles,42000000,8141055,22728067,48,True,1
+ASH-A-00347,Peck Enterprises,Pharma Packaging,1200000,177684,707724,105,True,0
+ASH-A-00348,Coleman Works,Logistics,1200000,64212,521285,214,True,0
+ASH-A-00349,Stephens Enterprises,Pharma Packaging,1200000,162007,477412,77,True,4

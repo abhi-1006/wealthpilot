@@ -1,0 +1,3502 @@
+[
+  {
+    "applicant_id": "ASH-A-00000",
+    "bureau_score": 374,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-23"
+  },
+  {
+    "applicant_id": "ASH-A-00001",
+    "bureau_score": 500,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-13"
+  },
+  {
+    "applicant_id": "ASH-A-00002",
+    "bureau_score": 677,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-15"
+  },
+  {
+    "applicant_id": "ASH-A-00003",
+    "bureau_score": 753,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-28"
+  },
+  {
+    "applicant_id": "ASH-A-00004",
+    "bureau_score": 443,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-16"
+  },
+  {
+    "applicant_id": "ASH-A-00005",
+    "bureau_score": 652,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-12"
+  },
+  {
+    "applicant_id": "ASH-A-00006",
+    "bureau_score": 785,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 3,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-09"
+  },
+  {
+    "applicant_id": "ASH-A-00007",
+    "bureau_score": 569,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-09"
+  },
+  {
+    "applicant_id": "ASH-A-00008",
+    "bureau_score": 499,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-02"
+  },
+  {
+    "applicant_id": "ASH-A-00009",
+    "bureau_score": 666,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-17"
+  },
+  {
+    "applicant_id": "ASH-A-00010",
+    "bureau_score": 857,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-08"
+  },
+  {
+    "applicant_id": "ASH-A-00011",
+    "bureau_score": 404,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-15"
+  },
+  {
+    "applicant_id": "ASH-A-00012",
+    "bureau_score": 732,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 3,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-20"
+  },
+  {
+    "applicant_id": "ASH-A-00013",
+    "bureau_score": 859,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-10"
+  },
+  {
+    "applicant_id": "ASH-A-00014",
+    "bureau_score": 858,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-26"
+  },
+  {
+    "applicant_id": "ASH-A-00015",
+    "bureau_score": 892,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-07"
+  },
+  {
+    "applicant_id": "ASH-A-00016",
+    "bureau_score": 396,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-23"
+  },
+  {
+    "applicant_id": "ASH-A-00017",
+    "bureau_score": 556,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-30"
+  },
+  {
+    "applicant_id": "ASH-A-00018",
+    "bureau_score": 774,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-04"
+  },
+  {
+    "applicant_id": "ASH-A-00019",
+    "bureau_score": 465,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-13"
+  },
+  {
+    "applicant_id": "ASH-A-00020",
+    "bureau_score": 498,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-25"
+  },
+  {
+    "applicant_id": "ASH-A-00021",
+    "bureau_score": 648,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-15"
+  },
+  {
+    "applicant_id": "ASH-A-00022",
+    "bureau_score": 736,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-20"
+  },
+  {
+    "applicant_id": "ASH-A-00023",
+    "bureau_score": 856,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-14"
+  },
+  {
+    "applicant_id": "ASH-A-00024",
+    "bureau_score": 323,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-13"
+  },
+  {
+    "applicant_id": "ASH-A-00025",
+    "bureau_score": 712,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-26"
+  },
+  {
+    "applicant_id": "ASH-A-00026",
+    "bureau_score": 714,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-07"
+  },
+  {
+    "applicant_id": "ASH-A-00027",
+    "bureau_score": 302,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-20"
+  },
+  {
+    "applicant_id": "ASH-A-00028",
+    "bureau_score": 529,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-08"
+  },
+  {
+    "applicant_id": "ASH-A-00029",
+    "bureau_score": 674,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-09"
+  },
+  {
+    "applicant_id": "ASH-A-00030",
+    "bureau_score": 571,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-17"
+  },
+  {
+    "applicant_id": "ASH-A-00031",
+    "bureau_score": 478,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-15"
+  },
+  {
+    "applicant_id": "ASH-A-00032",
+    "bureau_score": 340,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-14"
+  },
+  {
+    "applicant_id": "ASH-A-00033",
+    "bureau_score": 854,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-15"
+  },
+  {
+    "applicant_id": "ASH-A-00034",
+    "bureau_score": 338,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-25"
+  },
+  {
+    "applicant_id": "ASH-A-00035",
+    "bureau_score": 855,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-31"
+  },
+  {
+    "applicant_id": "ASH-A-00036",
+    "bureau_score": 433,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-26"
+  },
+  {
+    "applicant_id": "ASH-A-00037",
+    "bureau_score": 367,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-16"
+  },
+  {
+    "applicant_id": "ASH-A-00038",
+    "bureau_score": 336,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-11"
+  },
+  {
+    "applicant_id": "ASH-A-00039",
+    "bureau_score": 758,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-21"
+  },
+  {
+    "applicant_id": "ASH-A-00040",
+    "bureau_score": 326,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-09"
+  },
+  {
+    "applicant_id": "ASH-A-00041",
+    "bureau_score": 772,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-25"
+  },
+  {
+    "applicant_id": "ASH-A-00042",
+    "bureau_score": 888,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-03"
+  },
+  {
+    "applicant_id": "ASH-A-00043",
+    "bureau_score": 828,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-24"
+  },
+  {
+    "applicant_id": "ASH-A-00044",
+    "bureau_score": 625,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-19"
+  },
+  {
+    "applicant_id": "ASH-A-00045",
+    "bureau_score": 543,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-29"
+  },
+  {
+    "applicant_id": "ASH-A-00046",
+    "bureau_score": 669,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-27"
+  },
+  {
+    "applicant_id": "ASH-A-00047",
+    "bureau_score": 339,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-20"
+  },
+  {
+    "applicant_id": "ASH-A-00048",
+    "bureau_score": 650,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-17"
+  },
+  {
+    "applicant_id": "ASH-A-00049",
+    "bureau_score": 703,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-21"
+  },
+  {
+    "applicant_id": "ASH-A-00050",
+    "bureau_score": 552,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-19"
+  },
+  {
+    "applicant_id": "ASH-A-00051",
+    "bureau_score": 700,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-13"
+  },
+  {
+    "applicant_id": "ASH-A-00052",
+    "bureau_score": 648,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-21"
+  },
+  {
+    "applicant_id": "ASH-A-00053",
+    "bureau_score": 845,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 3,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-10"
+  },
+  {
+    "applicant_id": "ASH-A-00054",
+    "bureau_score": 471,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-24"
+  },
+  {
+    "applicant_id": "ASH-A-00055",
+    "bureau_score": 651,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-25"
+  },
+  {
+    "applicant_id": "ASH-A-00056",
+    "bureau_score": 816,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-05"
+  },
+  {
+    "applicant_id": "ASH-A-00057",
+    "bureau_score": 801,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-03"
+  },
+  {
+    "applicant_id": "ASH-A-00058",
+    "bureau_score": 316,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-22"
+  },
+  {
+    "applicant_id": "ASH-A-00059",
+    "bureau_score": 567,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-27"
+  },
+  {
+    "applicant_id": "ASH-A-00060",
+    "bureau_score": 824,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00061",
+    "bureau_score": 795,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-28"
+  },
+  {
+    "applicant_id": "ASH-A-00062",
+    "bureau_score": 541,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-10"
+  },
+  {
+    "applicant_id": "ASH-A-00063",
+    "bureau_score": 614,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-23"
+  },
+  {
+    "applicant_id": "ASH-A-00064",
+    "bureau_score": 409,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-21"
+  },
+  {
+    "applicant_id": "ASH-A-00065",
+    "bureau_score": 729,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-19"
+  },
+  {
+    "applicant_id": "ASH-A-00066",
+    "bureau_score": 736,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-24"
+  },
+  {
+    "applicant_id": "ASH-A-00067",
+    "bureau_score": 453,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-17"
+  },
+  {
+    "applicant_id": "ASH-A-00068",
+    "bureau_score": 662,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-09"
+  },
+  {
+    "applicant_id": "ASH-A-00069",
+    "bureau_score": 836,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-15"
+  },
+  {
+    "applicant_id": "ASH-A-00070",
+    "bureau_score": 789,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-23"
+  },
+  {
+    "applicant_id": "ASH-A-00071",
+    "bureau_score": 871,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-26"
+  },
+  {
+    "applicant_id": "ASH-A-00072",
+    "bureau_score": 738,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-21"
+  },
+  {
+    "applicant_id": "ASH-A-00073",
+    "bureau_score": 725,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-16"
+  },
+  {
+    "applicant_id": "ASH-A-00074",
+    "bureau_score": 804,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-30"
+  },
+  {
+    "applicant_id": "ASH-A-00075",
+    "bureau_score": 854,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-18"
+  },
+  {
+    "applicant_id": "ASH-A-00076",
+    "bureau_score": 594,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-11"
+  },
+  {
+    "applicant_id": "ASH-A-00077",
+    "bureau_score": 738,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-07"
+  },
+  {
+    "applicant_id": "ASH-A-00078",
+    "bureau_score": 459,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-10"
+  },
+  {
+    "applicant_id": "ASH-A-00079",
+    "bureau_score": 542,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-19"
+  },
+  {
+    "applicant_id": "ASH-A-00080",
+    "bureau_score": 633,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-06"
+  },
+  {
+    "applicant_id": "ASH-A-00081",
+    "bureau_score": 834,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-08"
+  },
+  {
+    "applicant_id": "ASH-A-00082",
+    "bureau_score": 402,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-09"
+  },
+  {
+    "applicant_id": "ASH-A-00083",
+    "bureau_score": 695,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 3,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-24"
+  },
+  {
+    "applicant_id": "ASH-A-00084",
+    "bureau_score": 527,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-31"
+  },
+  {
+    "applicant_id": "ASH-A-00085",
+    "bureau_score": 723,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-14"
+  },
+  {
+    "applicant_id": "ASH-A-00086",
+    "bureau_score": 471,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-24"
+  },
+  {
+    "applicant_id": "ASH-A-00087",
+    "bureau_score": 477,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-23"
+  },
+  {
+    "applicant_id": "ASH-A-00088",
+    "bureau_score": 364,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-04"
+  },
+  {
+    "applicant_id": "ASH-A-00089",
+    "bureau_score": 612,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-22"
+  },
+  {
+    "applicant_id": "ASH-A-00090",
+    "bureau_score": 550,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-17"
+  },
+  {
+    "applicant_id": "ASH-A-00091",
+    "bureau_score": 653,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-10"
+  },
+  {
+    "applicant_id": "ASH-A-00092",
+    "bureau_score": 389,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-17"
+  },
+  {
+    "applicant_id": "ASH-A-00093",
+    "bureau_score": 628,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 3,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-19"
+  },
+  {
+    "applicant_id": "ASH-A-00094",
+    "bureau_score": 438,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-17"
+  },
+  {
+    "applicant_id": "ASH-A-00095",
+    "bureau_score": 392,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-29"
+  },
+  {
+    "applicant_id": "ASH-A-00096",
+    "bureau_score": 867,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-12"
+  },
+  {
+    "applicant_id": "ASH-A-00097",
+    "bureau_score": 750,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-24"
+  },
+  {
+    "applicant_id": "ASH-A-00098",
+    "bureau_score": 503,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-06"
+  },
+  {
+    "applicant_id": "ASH-A-00099",
+    "bureau_score": 896,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-27"
+  },
+  {
+    "applicant_id": "ASH-A-00100",
+    "bureau_score": 519,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-06"
+  },
+  {
+    "applicant_id": "ASH-A-00101",
+    "bureau_score": 899,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-26"
+  },
+  {
+    "applicant_id": "ASH-A-00102",
+    "bureau_score": 470,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-25"
+  },
+  {
+    "applicant_id": "ASH-A-00103",
+    "bureau_score": 853,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-15"
+  },
+  {
+    "applicant_id": "ASH-A-00104",
+    "bureau_score": 800,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-20"
+  },
+  {
+    "applicant_id": "ASH-A-00105",
+    "bureau_score": 702,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-26"
+  },
+  {
+    "applicant_id": "ASH-A-00106",
+    "bureau_score": 559,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-12"
+  },
+  {
+    "applicant_id": "ASH-A-00107",
+    "bureau_score": 419,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-14"
+  },
+  {
+    "applicant_id": "ASH-A-00108",
+    "bureau_score": 302,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-04"
+  },
+  {
+    "applicant_id": "ASH-A-00109",
+    "bureau_score": 552,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-14"
+  },
+  {
+    "applicant_id": "ASH-A-00110",
+    "bureau_score": 519,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-26"
+  },
+  {
+    "applicant_id": "ASH-A-00111",
+    "bureau_score": 831,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-16"
+  },
+  {
+    "applicant_id": "ASH-A-00112",
+    "bureau_score": 673,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-21"
+  },
+  {
+    "applicant_id": "ASH-A-00113",
+    "bureau_score": 477,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-21"
+  },
+  {
+    "applicant_id": "ASH-A-00114",
+    "bureau_score": 776,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-08"
+  },
+  {
+    "applicant_id": "ASH-A-00115",
+    "bureau_score": 515,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-24"
+  },
+  {
+    "applicant_id": "ASH-A-00116",
+    "bureau_score": 703,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-22"
+  },
+  {
+    "applicant_id": "ASH-A-00117",
+    "bureau_score": 317,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-21"
+  },
+  {
+    "applicant_id": "ASH-A-00118",
+    "bureau_score": 886,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-23"
+  },
+  {
+    "applicant_id": "ASH-A-00119",
+    "bureau_score": 884,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-18"
+  },
+  {
+    "applicant_id": "ASH-A-00120",
+    "bureau_score": 900,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-30"
+  },
+  {
+    "applicant_id": "ASH-A-00121",
+    "bureau_score": 823,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-28"
+  },
+  {
+    "applicant_id": "ASH-A-00122",
+    "bureau_score": 725,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-01"
+  },
+  {
+    "applicant_id": "ASH-A-00123",
+    "bureau_score": 417,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-14"
+  },
+  {
+    "applicant_id": "ASH-A-00124",
+    "bureau_score": 512,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-12"
+  },
+  {
+    "applicant_id": "ASH-A-00125",
+    "bureau_score": 777,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-12"
+  },
+  {
+    "applicant_id": "ASH-A-00126",
+    "bureau_score": 418,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-07"
+  },
+  {
+    "applicant_id": "ASH-A-00127",
+    "bureau_score": 423,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-06"
+  },
+  {
+    "applicant_id": "ASH-A-00128",
+    "bureau_score": 841,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-24"
+  },
+  {
+    "applicant_id": "ASH-A-00129",
+    "bureau_score": 337,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-24"
+  },
+  {
+    "applicant_id": "ASH-A-00130",
+    "bureau_score": 313,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-17"
+  },
+  {
+    "applicant_id": "ASH-A-00131",
+    "bureau_score": 833,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-12"
+  },
+  {
+    "applicant_id": "ASH-A-00132",
+    "bureau_score": 591,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-17"
+  },
+  {
+    "applicant_id": "ASH-A-00133",
+    "bureau_score": 645,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00134",
+    "bureau_score": 593,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-10"
+  },
+  {
+    "applicant_id": "ASH-A-00135",
+    "bureau_score": 675,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-13"
+  },
+  {
+    "applicant_id": "ASH-A-00136",
+    "bureau_score": 301,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-18"
+  },
+  {
+    "applicant_id": "ASH-A-00137",
+    "bureau_score": 897,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-14"
+  },
+  {
+    "applicant_id": "ASH-A-00138",
+    "bureau_score": 445,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-24"
+  },
+  {
+    "applicant_id": "ASH-A-00139",
+    "bureau_score": 675,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-28"
+  },
+  {
+    "applicant_id": "ASH-A-00140",
+    "bureau_score": 376,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-13"
+  },
+  {
+    "applicant_id": "ASH-A-00141",
+    "bureau_score": 426,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-30"
+  },
+  {
+    "applicant_id": "ASH-A-00142",
+    "bureau_score": 361,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-11"
+  },
+  {
+    "applicant_id": "ASH-A-00143",
+    "bureau_score": 741,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-25"
+  },
+  {
+    "applicant_id": "ASH-A-00144",
+    "bureau_score": 588,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-28"
+  },
+  {
+    "applicant_id": "ASH-A-00145",
+    "bureau_score": 462,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-27"
+  },
+  {
+    "applicant_id": "ASH-A-00146",
+    "bureau_score": 360,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-20"
+  },
+  {
+    "applicant_id": "ASH-A-00147",
+    "bureau_score": 877,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-09"
+  },
+  {
+    "applicant_id": "ASH-A-00148",
+    "bureau_score": 679,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-31"
+  },
+  {
+    "applicant_id": "ASH-A-00149",
+    "bureau_score": 735,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-23"
+  },
+  {
+    "applicant_id": "ASH-A-00150",
+    "bureau_score": 557,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-17"
+  },
+  {
+    "applicant_id": "ASH-A-00151",
+    "bureau_score": 421,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-19"
+  },
+  {
+    "applicant_id": "ASH-A-00152",
+    "bureau_score": 722,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-19"
+  },
+  {
+    "applicant_id": "ASH-A-00153",
+    "bureau_score": 465,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-21"
+  },
+  {
+    "applicant_id": "ASH-A-00154",
+    "bureau_score": 675,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-13"
+  },
+  {
+    "applicant_id": "ASH-A-00155",
+    "bureau_score": 650,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-16"
+  },
+  {
+    "applicant_id": "ASH-A-00156",
+    "bureau_score": 404,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-08"
+  },
+  {
+    "applicant_id": "ASH-A-00157",
+    "bureau_score": 594,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-20"
+  },
+  {
+    "applicant_id": "ASH-A-00158",
+    "bureau_score": 710,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-14"
+  },
+  {
+    "applicant_id": "ASH-A-00159",
+    "bureau_score": 486,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-13"
+  },
+  {
+    "applicant_id": "ASH-A-00160",
+    "bureau_score": 739,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-03"
+  },
+  {
+    "applicant_id": "ASH-A-00161",
+    "bureau_score": 641,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-11"
+  },
+  {
+    "applicant_id": "ASH-A-00162",
+    "bureau_score": 460,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-22"
+  },
+  {
+    "applicant_id": "ASH-A-00163",
+    "bureau_score": 452,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-10"
+  },
+  {
+    "applicant_id": "ASH-A-00164",
+    "bureau_score": 786,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-13"
+  },
+  {
+    "applicant_id": "ASH-A-00165",
+    "bureau_score": 402,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-19"
+  },
+  {
+    "applicant_id": "ASH-A-00166",
+    "bureau_score": 419,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-31"
+  },
+  {
+    "applicant_id": "ASH-A-00167",
+    "bureau_score": 558,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-25"
+  },
+  {
+    "applicant_id": "ASH-A-00168",
+    "bureau_score": 865,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-03"
+  },
+  {
+    "applicant_id": "ASH-A-00169",
+    "bureau_score": 576,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-09"
+  },
+  {
+    "applicant_id": "ASH-A-00170",
+    "bureau_score": 624,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-20"
+  },
+  {
+    "applicant_id": "ASH-A-00171",
+    "bureau_score": 604,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-23"
+  },
+  {
+    "applicant_id": "ASH-A-00172",
+    "bureau_score": 804,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-08"
+  },
+  {
+    "applicant_id": "ASH-A-00173",
+    "bureau_score": 423,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-12"
+  },
+  {
+    "applicant_id": "ASH-A-00174",
+    "bureau_score": 691,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-19"
+  },
+  {
+    "applicant_id": "ASH-A-00175",
+    "bureau_score": 791,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-14"
+  },
+  {
+    "applicant_id": "ASH-A-00176",
+    "bureau_score": 487,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00177",
+    "bureau_score": 596,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-20"
+  },
+  {
+    "applicant_id": "ASH-A-00178",
+    "bureau_score": 315,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-24"
+  },
+  {
+    "applicant_id": "ASH-A-00179",
+    "bureau_score": 442,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-24"
+  },
+  {
+    "applicant_id": "ASH-A-00180",
+    "bureau_score": 475,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-06"
+  },
+  {
+    "applicant_id": "ASH-A-00181",
+    "bureau_score": 328,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-19"
+  },
+  {
+    "applicant_id": "ASH-A-00182",
+    "bureau_score": 385,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-22"
+  },
+  {
+    "applicant_id": "ASH-A-00183",
+    "bureau_score": 816,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-15"
+  },
+  {
+    "applicant_id": "ASH-A-00184",
+    "bureau_score": 322,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-21"
+  },
+  {
+    "applicant_id": "ASH-A-00185",
+    "bureau_score": 331,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-24"
+  },
+  {
+    "applicant_id": "ASH-A-00186",
+    "bureau_score": 441,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-23"
+  },
+  {
+    "applicant_id": "ASH-A-00187",
+    "bureau_score": 825,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 3,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-14"
+  },
+  {
+    "applicant_id": "ASH-A-00188",
+    "bureau_score": 311,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-07"
+  },
+  {
+    "applicant_id": "ASH-A-00189",
+    "bureau_score": 728,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-24"
+  },
+  {
+    "applicant_id": "ASH-A-00190",
+    "bureau_score": 493,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-16"
+  },
+  {
+    "applicant_id": "ASH-A-00191",
+    "bureau_score": 386,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-29"
+  },
+  {
+    "applicant_id": "ASH-A-00192",
+    "bureau_score": 469,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-17"
+  },
+  {
+    "applicant_id": "ASH-A-00193",
+    "bureau_score": 701,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-08"
+  },
+  {
+    "applicant_id": "ASH-A-00194",
+    "bureau_score": 573,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-30"
+  },
+  {
+    "applicant_id": "ASH-A-00195",
+    "bureau_score": 390,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-29"
+  },
+  {
+    "applicant_id": "ASH-A-00196",
+    "bureau_score": 865,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-26"
+  },
+  {
+    "applicant_id": "ASH-A-00197",
+    "bureau_score": 871,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-28"
+  },
+  {
+    "applicant_id": "ASH-A-00198",
+    "bureau_score": 707,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-10"
+  },
+  {
+    "applicant_id": "ASH-A-00199",
+    "bureau_score": 589,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-01"
+  },
+  {
+    "applicant_id": "ASH-A-00200",
+    "bureau_score": 739,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-15"
+  },
+  {
+    "applicant_id": "ASH-A-00201",
+    "bureau_score": 311,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-06"
+  },
+  {
+    "applicant_id": "ASH-A-00202",
+    "bureau_score": 893,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-03"
+  },
+  {
+    "applicant_id": "ASH-A-00203",
+    "bureau_score": 814,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-24"
+  },
+  {
+    "applicant_id": "ASH-A-00204",
+    "bureau_score": 813,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-10"
+  },
+  {
+    "applicant_id": "ASH-A-00205",
+    "bureau_score": 791,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-13"
+  },
+  {
+    "applicant_id": "ASH-A-00206",
+    "bureau_score": 322,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-29"
+  },
+  {
+    "applicant_id": "ASH-A-00207",
+    "bureau_score": 554,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-22"
+  },
+  {
+    "applicant_id": "ASH-A-00208",
+    "bureau_score": 509,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-29"
+  },
+  {
+    "applicant_id": "ASH-A-00209",
+    "bureau_score": 300,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 3,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-03"
+  },
+  {
+    "applicant_id": "ASH-A-00210",
+    "bureau_score": 869,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-05"
+  },
+  {
+    "applicant_id": "ASH-A-00211",
+    "bureau_score": 469,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-15"
+  },
+  {
+    "applicant_id": "ASH-A-00212",
+    "bureau_score": 399,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-31"
+  },
+  {
+    "applicant_id": "ASH-A-00213",
+    "bureau_score": 580,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-18"
+  },
+  {
+    "applicant_id": "ASH-A-00214",
+    "bureau_score": 795,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-24"
+  },
+  {
+    "applicant_id": "ASH-A-00215",
+    "bureau_score": 886,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-03"
+  },
+  {
+    "applicant_id": "ASH-A-00216",
+    "bureau_score": 710,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-29"
+  },
+  {
+    "applicant_id": "ASH-A-00217",
+    "bureau_score": 723,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-21"
+  },
+  {
+    "applicant_id": "ASH-A-00218",
+    "bureau_score": 703,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-02"
+  },
+  {
+    "applicant_id": "ASH-A-00219",
+    "bureau_score": 554,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-21"
+  },
+  {
+    "applicant_id": "ASH-A-00220",
+    "bureau_score": 690,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-05"
+  },
+  {
+    "applicant_id": "ASH-A-00221",
+    "bureau_score": 567,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-16"
+  },
+  {
+    "applicant_id": "ASH-A-00222",
+    "bureau_score": 484,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-10"
+  },
+  {
+    "applicant_id": "ASH-A-00223",
+    "bureau_score": 690,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-08"
+  },
+  {
+    "applicant_id": "ASH-A-00224",
+    "bureau_score": 363,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-23"
+  },
+  {
+    "applicant_id": "ASH-A-00225",
+    "bureau_score": 731,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-13"
+  },
+  {
+    "applicant_id": "ASH-A-00226",
+    "bureau_score": 827,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-19"
+  },
+  {
+    "applicant_id": "ASH-A-00227",
+    "bureau_score": 307,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-20"
+  },
+  {
+    "applicant_id": "ASH-A-00228",
+    "bureau_score": 439,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 3,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-31"
+  },
+  {
+    "applicant_id": "ASH-A-00229",
+    "bureau_score": 685,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-26"
+  },
+  {
+    "applicant_id": "ASH-A-00230",
+    "bureau_score": 870,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-18"
+  },
+  {
+    "applicant_id": "ASH-A-00231",
+    "bureau_score": 746,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-02"
+  },
+  {
+    "applicant_id": "ASH-A-00232",
+    "bureau_score": 733,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-27"
+  },
+  {
+    "applicant_id": "ASH-A-00233",
+    "bureau_score": 761,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-20"
+  },
+  {
+    "applicant_id": "ASH-A-00234",
+    "bureau_score": 329,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-19"
+  },
+  {
+    "applicant_id": "ASH-A-00235",
+    "bureau_score": 714,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-05"
+  },
+  {
+    "applicant_id": "ASH-A-00236",
+    "bureau_score": 596,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-06"
+  },
+  {
+    "applicant_id": "ASH-A-00237",
+    "bureau_score": 534,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-25"
+  },
+  {
+    "applicant_id": "ASH-A-00238",
+    "bureau_score": 491,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-13"
+  },
+  {
+    "applicant_id": "ASH-A-00239",
+    "bureau_score": 789,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-09"
+  },
+  {
+    "applicant_id": "ASH-A-00240",
+    "bureau_score": 699,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-12"
+  },
+  {
+    "applicant_id": "ASH-A-00241",
+    "bureau_score": 681,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-09"
+  },
+  {
+    "applicant_id": "ASH-A-00242",
+    "bureau_score": 306,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-19"
+  },
+  {
+    "applicant_id": "ASH-A-00243",
+    "bureau_score": 806,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00244",
+    "bureau_score": 666,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-15"
+  },
+  {
+    "applicant_id": "ASH-A-00245",
+    "bureau_score": 438,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-10"
+  },
+  {
+    "applicant_id": "ASH-A-00246",
+    "bureau_score": 450,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-13"
+  },
+  {
+    "applicant_id": "ASH-A-00247",
+    "bureau_score": 790,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-09"
+  },
+  {
+    "applicant_id": "ASH-A-00248",
+    "bureau_score": 845,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-19"
+  },
+  {
+    "applicant_id": "ASH-A-00249",
+    "bureau_score": 677,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-26"
+  },
+  {
+    "applicant_id": "ASH-A-00250",
+    "bureau_score": 538,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-07"
+  },
+  {
+    "applicant_id": "ASH-A-00251",
+    "bureau_score": 332,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-17"
+  },
+  {
+    "applicant_id": "ASH-A-00252",
+    "bureau_score": 646,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-22"
+  },
+  {
+    "applicant_id": "ASH-A-00253",
+    "bureau_score": 457,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-13"
+  },
+  {
+    "applicant_id": "ASH-A-00254",
+    "bureau_score": 803,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-29"
+  },
+  {
+    "applicant_id": "ASH-A-00255",
+    "bureau_score": 707,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-14"
+  },
+  {
+    "applicant_id": "ASH-A-00256",
+    "bureau_score": 470,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-24"
+  },
+  {
+    "applicant_id": "ASH-A-00257",
+    "bureau_score": 688,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-05"
+  },
+  {
+    "applicant_id": "ASH-A-00258",
+    "bureau_score": 855,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-27"
+  },
+  {
+    "applicant_id": "ASH-A-00259",
+    "bureau_score": 342,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-01"
+  },
+  {
+    "applicant_id": "ASH-A-00260",
+    "bureau_score": 535,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-02"
+  },
+  {
+    "applicant_id": "ASH-A-00261",
+    "bureau_score": 534,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-18"
+  },
+  {
+    "applicant_id": "ASH-A-00262",
+    "bureau_score": 406,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-21"
+  },
+  {
+    "applicant_id": "ASH-A-00263",
+    "bureau_score": 593,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-30"
+  },
+  {
+    "applicant_id": "ASH-A-00264",
+    "bureau_score": 560,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-08"
+  },
+  {
+    "applicant_id": "ASH-A-00265",
+    "bureau_score": 844,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00266",
+    "bureau_score": 522,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-09"
+  },
+  {
+    "applicant_id": "ASH-A-00267",
+    "bureau_score": 628,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-21"
+  },
+  {
+    "applicant_id": "ASH-A-00268",
+    "bureau_score": 824,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-28"
+  },
+  {
+    "applicant_id": "ASH-A-00269",
+    "bureau_score": 735,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00270",
+    "bureau_score": 362,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-13"
+  },
+  {
+    "applicant_id": "ASH-A-00271",
+    "bureau_score": 580,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-21"
+  },
+  {
+    "applicant_id": "ASH-A-00272",
+    "bureau_score": 391,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-20"
+  },
+  {
+    "applicant_id": "ASH-A-00273",
+    "bureau_score": 574,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-16"
+  },
+  {
+    "applicant_id": "ASH-A-00274",
+    "bureau_score": 466,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-14"
+  },
+  {
+    "applicant_id": "ASH-A-00275",
+    "bureau_score": 862,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-23"
+  },
+  {
+    "applicant_id": "ASH-A-00276",
+    "bureau_score": 476,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-08-01"
+  },
+  {
+    "applicant_id": "ASH-A-00277",
+    "bureau_score": 517,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-21"
+  },
+  {
+    "applicant_id": "ASH-A-00278",
+    "bureau_score": 535,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-17"
+  },
+  {
+    "applicant_id": "ASH-A-00279",
+    "bureau_score": 744,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00280",
+    "bureau_score": 871,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-21"
+  },
+  {
+    "applicant_id": "ASH-A-00281",
+    "bureau_score": 602,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-31"
+  },
+  {
+    "applicant_id": "ASH-A-00282",
+    "bureau_score": 540,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-11"
+  },
+  {
+    "applicant_id": "ASH-A-00283",
+    "bureau_score": 822,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-04"
+  },
+  {
+    "applicant_id": "ASH-A-00284",
+    "bureau_score": 441,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-03"
+  },
+  {
+    "applicant_id": "ASH-A-00285",
+    "bureau_score": 400,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-16"
+  },
+  {
+    "applicant_id": "ASH-A-00286",
+    "bureau_score": 713,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-14"
+  },
+  {
+    "applicant_id": "ASH-A-00287",
+    "bureau_score": 688,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-14"
+  },
+  {
+    "applicant_id": "ASH-A-00288",
+    "bureau_score": 743,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-10"
+  },
+  {
+    "applicant_id": "ASH-A-00289",
+    "bureau_score": 679,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-30"
+  },
+  {
+    "applicant_id": "ASH-A-00290",
+    "bureau_score": 301,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-29"
+  },
+  {
+    "applicant_id": "ASH-A-00291",
+    "bureau_score": 780,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-16"
+  },
+  {
+    "applicant_id": "ASH-A-00292",
+    "bureau_score": 499,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-09"
+  },
+  {
+    "applicant_id": "ASH-A-00293",
+    "bureau_score": 847,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-16"
+  },
+  {
+    "applicant_id": "ASH-A-00294",
+    "bureau_score": 315,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-29"
+  },
+  {
+    "applicant_id": "ASH-A-00295",
+    "bureau_score": 879,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-19"
+  },
+  {
+    "applicant_id": "ASH-A-00296",
+    "bureau_score": 374,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-07"
+  },
+  {
+    "applicant_id": "ASH-A-00297",
+    "bureau_score": 764,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00298",
+    "bureau_score": 542,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-16"
+  },
+  {
+    "applicant_id": "ASH-A-00299",
+    "bureau_score": 667,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-09"
+  },
+  {
+    "applicant_id": "ASH-A-00300",
+    "bureau_score": 315,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-08"
+  },
+  {
+    "applicant_id": "ASH-A-00301",
+    "bureau_score": 442,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-14"
+  },
+  {
+    "applicant_id": "ASH-A-00302",
+    "bureau_score": 771,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-16"
+  },
+  {
+    "applicant_id": "ASH-A-00303",
+    "bureau_score": 799,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 6,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-24"
+  },
+  {
+    "applicant_id": "ASH-A-00304",
+    "bureau_score": 864,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-16"
+  },
+  {
+    "applicant_id": "ASH-A-00305",
+    "bureau_score": 746,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-04"
+  },
+  {
+    "applicant_id": "ASH-A-00306",
+    "bureau_score": 824,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-12"
+  },
+  {
+    "applicant_id": "ASH-A-00307",
+    "bureau_score": 675,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-31"
+  },
+  {
+    "applicant_id": "ASH-A-00308",
+    "bureau_score": 681,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-03"
+  },
+  {
+    "applicant_id": "ASH-A-00309",
+    "bureau_score": 891,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-11"
+  },
+  {
+    "applicant_id": "ASH-A-00310",
+    "bureau_score": 888,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 11,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-08-01"
+  },
+  {
+    "applicant_id": "ASH-A-00311",
+    "bureau_score": 650,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-22"
+  },
+  {
+    "applicant_id": "ASH-A-00312",
+    "bureau_score": 439,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 3,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-07-01"
+  },
+  {
+    "applicant_id": "ASH-A-00313",
+    "bureau_score": 635,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-30"
+  },
+  {
+    "applicant_id": "ASH-A-00314",
+    "bureau_score": 829,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 2,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-12"
+  },
+  {
+    "applicant_id": "ASH-A-00315",
+    "bureau_score": 439,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-03"
+  },
+  {
+    "applicant_id": "ASH-A-00316",
+    "bureau_score": 793,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-10"
+  },
+  {
+    "applicant_id": "ASH-A-00317",
+    "bureau_score": 360,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-05-20"
+  },
+  {
+    "applicant_id": "ASH-A-00318",
+    "bureau_score": 774,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-14"
+  },
+  {
+    "applicant_id": "ASH-A-00319",
+    "bureau_score": 344,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-08"
+  },
+  {
+    "applicant_id": "ASH-A-00320",
+    "bureau_score": 883,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00321",
+    "bureau_score": 621,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-22"
+  },
+  {
+    "applicant_id": "ASH-A-00322",
+    "bureau_score": 388,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 9,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-10"
+  },
+  {
+    "applicant_id": "ASH-A-00323",
+    "bureau_score": 600,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-17"
+  },
+  {
+    "applicant_id": "ASH-A-00324",
+    "bureau_score": 723,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-05"
+  },
+  {
+    "applicant_id": "ASH-A-00325",
+    "bureau_score": 434,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-12"
+  },
+  {
+    "applicant_id": "ASH-A-00326",
+    "bureau_score": 390,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-23"
+  },
+  {
+    "applicant_id": "ASH-A-00327",
+    "bureau_score": 618,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-06"
+  },
+  {
+    "applicant_id": "ASH-A-00328",
+    "bureau_score": 564,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-01"
+  },
+  {
+    "applicant_id": "ASH-A-00329",
+    "bureau_score": 712,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-24"
+  },
+  {
+    "applicant_id": "ASH-A-00330",
+    "bureau_score": 668,
+    "enquiries_last_6m": 7,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-05"
+  },
+  {
+    "applicant_id": "ASH-A-00331",
+    "bureau_score": 455,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 150000,
+    "report_pulled_on": "2026-06-14"
+  },
+  {
+    "applicant_id": "ASH-A-00332",
+    "bureau_score": 339,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-27"
+  },
+  {
+    "applicant_id": "ASH-A-00333",
+    "bureau_score": 606,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 8,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-03"
+  },
+  {
+    "applicant_id": "ASH-A-00334",
+    "bureau_score": 533,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 12,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-11"
+  },
+  {
+    "applicant_id": "ASH-A-00335",
+    "bureau_score": 441,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-30"
+  },
+  {
+    "applicant_id": "ASH-A-00336",
+    "bureau_score": 351,
+    "enquiries_last_6m": 6,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-07"
+  },
+  {
+    "applicant_id": "ASH-A-00337",
+    "bureau_score": 706,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 3,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00338",
+    "bureau_score": 334,
+    "enquiries_last_6m": 8,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-20"
+  },
+  {
+    "applicant_id": "ASH-A-00339",
+    "bureau_score": 616,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 3,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-13"
+  },
+  {
+    "applicant_id": "ASH-A-00340",
+    "bureau_score": 385,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-30"
+  },
+  {
+    "applicant_id": "ASH-A-00341",
+    "bureau_score": 319,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-08"
+  },
+  {
+    "applicant_id": "ASH-A-00342",
+    "bureau_score": 698,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 10,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-06-11"
+  },
+  {
+    "applicant_id": "ASH-A-00343",
+    "bureau_score": 679,
+    "enquiries_last_6m": 3,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 1,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-11"
+  },
+  {
+    "applicant_id": "ASH-A-00344",
+    "bureau_score": 481,
+    "enquiries_last_6m": 0,
+    "active_trade_lines": 1,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-18"
+  },
+  {
+    "applicant_id": "ASH-A-00345",
+    "bureau_score": 879,
+    "enquiries_last_6m": 5,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-07-31"
+  },
+  {
+    "applicant_id": "ASH-A-00346",
+    "bureau_score": 351,
+    "enquiries_last_6m": 1,
+    "active_trade_lines": 5,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 900000,
+    "report_pulled_on": "2026-05-21"
+  },
+  {
+    "applicant_id": "ASH-A-00347",
+    "bureau_score": 655,
+    "enquiries_last_6m": 9,
+    "active_trade_lines": 4,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-05-06"
+  },
+  {
+    "applicant_id": "ASH-A-00348",
+    "bureau_score": 748,
+    "enquiries_last_6m": 4,
+    "active_trade_lines": 0,
+    "dpd_30_last_12m": 2,
+    "dpd_90_ever": false,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-10"
+  },
+  {
+    "applicant_id": "ASH-A-00349",
+    "bureau_score": 495,
+    "enquiries_last_6m": 2,
+    "active_trade_lines": 7,
+    "dpd_30_last_12m": 0,
+    "dpd_90_ever": true,
+    "written_off_amount_inr": 0,
+    "report_pulled_on": "2026-07-11"
+  }
+]
