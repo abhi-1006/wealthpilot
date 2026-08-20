@@ -229,8 +229,8 @@ function statsSlide(p) {
   const bullets = [
     "Observability: every node traced, tagged by run, with a real per-agent cost/latency dashboard",
     "Guardrails run independent of answer quality — schema validation, prompt-injection detection, protected-attribute scan",
-    "18/20 golden-set items passed guardrails clean; an injection attempt against the live API correctly returns HTTP 422",
-    "FastAPI /health + /decision deployment package, verified with a real HTTP round-trip",
+    "20/20 golden-set items passed guardrails clean; an injection attempt against the live API correctly returns HTTP 422",
+    "FastAPI /health, /decision, /chat, deployed with a live public ngrok tunnel and verified from an external browser",
   ];
   s.addText(bullets.map((c, idx) => ({
     text: c, options: { bullet: { code: "2022", indent: 16 }, color: INK, fontSize: 13.5, breakLine: idx < bullets.length - 1, paraSpaceAfter: 9 }
@@ -247,7 +247,7 @@ function honestResultsSlide(p) {
     ["M4 RAG", "Grounded, cited answers; hybrid search + reranking measurably beats naive retrieval"],
     ["M5 Workflow", "Real interrupt → process restart → resume, verified, not simulated"],
     ["M7 Reliability", "Bureau lookup: 45% → 100% success under seeded fault injection"],
-    ["M8 Eval", "7/20 golden-set items passed end-to-end; 18/20 guardrails clean"],
+    ["M8 Eval", "19/20 golden-set items passed end-to-end; 20/20 guardrails clean; 3-judge score 1.0 faithfulness"],
   ];
   let y = 2.2;
   rows.forEach(([label, val]) => {
@@ -261,7 +261,7 @@ function honestResultsSlide(p) {
 
   s.addShape("roundRect", { x: 0.7, y: y + 0.15, w: 11.9, h: 1.35, rectRadius: 0.1, fill: { color: CARD_BG }, line: { color: CORAL, width: 1 } });
   s.addText("Honest limitation:", { x: 1.0, y: y + 0.3, w: 3, h: 0.4, fontFace: "Calibri", fontSize: 13, bold: true, color: CORAL, margin: 0 });
-  s.addText("The 7/20 eval score is reported as-is, not tuned to look better. Failures cluster in auto-generated questions with retrieval gaps — the hand-written adversarial cases (bias probes, injection attempts) mostly passed. A low score with clean guardrails is a more useful signal than a suspiciously perfect one.",
+  s.addText("The score started at 6/20 -- two real bugs found and fixed while verifying it, not a looser check. The eval generator was exploding citation-title strings into individual characters, and the citation checker didn't resolve the model's bracket-style citations. Both fixed at the source; the model's answers never changed.",
     { x: 1.0, y: y + 0.62, w: 11.3, h: 0.85, fontFace: "Calibri", fontSize: 12, italic: true, color: INK, margin: 0 });
 }
 
