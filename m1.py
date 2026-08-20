@@ -140,3 +140,4 @@ if __name__ == "__main__":
         if r.get("app") is not None and not r.get("missing_fields_correct"):
             print(f"  MISMATCH {r['id']}: expected missing={r['expected_missing']}, "
                   f"parser found missing={r['actual_missing']}")
+

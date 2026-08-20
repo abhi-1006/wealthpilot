@@ -55,3 +55,4 @@ def fair_lending_policy() -> str:
 if __name__ == "__main__":
     print("[wealthpilot_mcp_server] starting on stdio", file=sys.stderr)
     mcp.run(transport="stdio", show_banner=False)
+

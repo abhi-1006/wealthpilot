@@ -114,3 +114,4 @@ rather than solving the underlying data-modeling problem.
   from an external browser.
 - Rollback plan: every milestone is its own git commit, so any regression can be isolated to the
   commit that introduced it rather than debugged against the whole system at once.
+
