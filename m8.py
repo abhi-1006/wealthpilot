@@ -19,11 +19,13 @@ import json
 import re
 import threading
 import time
+from pathlib import Path
 from typing import List, Literal
 
 import requests
 import uvicorn
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field, field_validator
 
 from m4 import EVAL_PATH, answer, retrieve
@@ -185,6 +187,61 @@ api_app = FastAPI(title="WealthPilot Underwriting Policy Assistant", version="1.
 @api_app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+@api_app.get("/", response_class=HTMLResponse)
+def frontend():
+    return Path("frontend.html").read_text(encoding="utf-8")
+
+
+class UnderwriteResponse(BaseModel):
+    application_id: str
+    business_name: str
+    sector: str
+    requested_amount_inr: int
+    dscr: float | None
+    bureau_score: str | None
+    decision: str
+    reasons: list[str]
+
+
+@api_app.get("/underwrite/{index}", response_model=UnderwriteResponse)
+def underwrite(index: int):
+    """Demo endpoint: runs M1 parse + M2 DSCR + a policy-floor decision on one
+    sample application from the intake file, by position (0, 1, 2, ...)."""
+    from m1 import parse_invoice
+    from m2 import credit_bureau_lookup, dscr_calculator
+
+    with open("capstone-data-toolkit/data/wealthpilot/intake/records.jsonl") as f:
+        records = [json.loads(line) for line in f]
+    if index < 0 or index >= len(records):
+        raise HTTPException(status_code=404, detail=f"index must be 0-{len(records) - 1}")
+    record = records[index]
+
+    app, _ = parse_invoice(record)
+    if app is None:
+        raise HTTPException(status_code=500, detail="parsing failed for this record")
+
+    fin = app.declared_financials
+    dscr = dscr_calculator(fin.ebitda_inr, fin.existing_debt_inr) if fin.ebitda_inr and fin.existing_debt_inr else None
+    bureau = credit_bureau_lookup("ASH-A-00000")
+
+    reasons = []
+    if dscr is None:
+        decision, reasons = "human_review", ["Cannot compute DSCR -- financials incomplete."]
+    elif dscr < 1.0:
+        decision, reasons = "declined", [f"DSCR {dscr} is well below the 1.25x policy floor."]
+    elif dscr < 1.25:
+        decision, reasons = "borderline", [f"DSCR {dscr} is close to the 1.25x floor."]
+    else:
+        decision, reasons = "pending_human_signoff", [f"DSCR {dscr} meets the 1.25x floor; requires human sign-off per policy."]
+
+    return UnderwriteResponse(
+        application_id=app.application_id, business_name=app.business_name, sector=app.sector,
+        requested_amount_inr=app.requested_amount_inr, dscr=dscr,
+        bureau_score=bureau.get("bureau_score") if bureau else None,
+        decision=decision, reasons=reasons,
+    )
 
 
 @api_app.post("/decision", response_model=DecisionAPIResponse)
