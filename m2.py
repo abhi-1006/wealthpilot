@@ -45,7 +45,7 @@ def bank_statement_lookup(applicant_id: str) -> list[dict]:
 # M2 core: wire the four tools above into a single tool-calling agent.
 # Uses LiteLLM's own tool-calling support directly (OpenAI-compatible
 # function schema) rather than LangChain -- same provider-agnostic principle
-# as M1, no new dependency needed, same underlying mechanism the lab used.
+# as M1, no new dependency needed.
 # ---------------------------------------------------------------------------
 
 TOOLS_BY_NAME = {

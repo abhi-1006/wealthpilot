@@ -48,6 +48,6 @@ m1.py .. m8.py              one file per milestone
 wealthpilot_mcp_server.py   the MCP server M6 talks to
 ARCHITECTURE.md             system design, eval results, known limitations (M8 deliverable)
 capstone-data-toolkit/      the synthetic data generator (not part of the milestone code itself)
-session2_docs/              reference material for the Day 2 Session 2 (M4) lab
+session2_docs/              reference material used for M4 (RAG ingestion)
 WealthPilot_FinTech_Primer.pdf   a compiled primer on the domain, built from this project's own policy corpus
 ```

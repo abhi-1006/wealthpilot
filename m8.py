@@ -1,18 +1,10 @@
 """M8 -- End-to-end evaluation, guardrails & deployment package.
 
-Deliberate scope decisions given the submission deadline:
-  - ONE LLM-judge via Groq/LiteLLM (reusing this project's existing stack)
-    instead of the lab's three separate frameworks (Ragas/DeepEval/TruLens) --
-    same "judge alongside a deterministic metric" principle, one framework
-    instead of three new dependency trees under time pressure.
-  - No public ngrok tunnel -- FastAPI + a real local HTTP round-trip proves
-    the deployment contract; a public tunnel is an easy addition later.
-  - Golden set regenerated to the full 20 items (was 6), matching the actual
-    milestone requirement instead of the earlier iteration-speed shortcut.
-
-Kept from the lab as-is: independent guardrails layer (schema + prompt-
-injection scan, run on every item regardless of category), deterministic
-scorer alongside the judge, and an architecture write-up.
+20-item golden eval scored two ways (deterministic checks + an LLM judge),
+an independent guardrails layer (schema validation, prompt-injection
+detection, protected-attribute scan) that runs regardless of answer
+quality, and a FastAPI deployment package verified with a real HTTP
+round-trip.
 """
 
 import json
@@ -169,7 +161,7 @@ def run_full_eval(judge_sample_size: int = 5):
 
 
 # ---------------------------------------------------------------------------
-# Lab B equivalent -- FastAPI deployment package
+# FastAPI deployment package
 # ---------------------------------------------------------------------------
 
 class DecisionRequest(BaseModel):

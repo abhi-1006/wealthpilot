@@ -1,15 +1,12 @@
 """M7 -- Observability + reliability hardening.
 
-Lab A pattern (tracing): a traced() span decorator around real pipeline nodes,
-tagged with a session_id, a per-agent cost/latency dashboard built from local
-timing events, and a traced-vs-untraced overhead measurement. Uses Langfuse's
-real SDK -- which is DESIGNED to fail silently without keys (per the lab's own
-pitfall table), so this runs correctly whether or not LANGFUSE_* keys are set.
+Tracing: a traced() span decorator around real pipeline nodes, tagged with a
+session_id, a per-agent cost/latency dashboard, and a traced-vs-untraced
+overhead measurement. Runs correctly with or without Langfuse keys set.
 
-Lab B pattern (reliability): a seeded fault-injection harness around the REAL
-dependency this project actually has -- M2's credit_bureau_lookup -- measuring
-baseline success rate, then hardening with retries (tenacity), a fallback
-record, and a circuit breaker, with an honest before/after comparison.
+Reliability: a seeded fault-injection harness around the bureau-lookup
+dependency, hardened with retries (tenacity), a fallback record, and a
+circuit breaker, with a before/after success-rate comparison.
 """
 
 import functools
@@ -36,7 +33,7 @@ from m1 import parse_invoice
 from m2 import credit_bureau_lookup, dscr_calculator
 
 # ---------------------------------------------------------------------------
-# Lab A -- observability
+# Observability
 # ---------------------------------------------------------------------------
 
 RUN_EVENTS: list[dict] = []
@@ -105,7 +102,7 @@ def build_dashboard(events: list[dict]) -> pd.DataFrame:
 
 
 # ---------------------------------------------------------------------------
-# Lab B -- reliability hardening, applied to the REAL bureau lookup dependency
+# Reliability hardening, applied to the real bureau lookup dependency
 # ---------------------------------------------------------------------------
 
 class FaultConfig:
@@ -114,8 +111,7 @@ class FaultConfig:
 
 
 def make_flaky_bureau_lookup(config: FaultConfig):
-    """Wraps the REAL credit_bureau_lookup with seeded, reproducible fault injection --
-    same idea as the lab's flaky search_kb, applied to our actual dependency."""
+    """Wraps the real credit_bureau_lookup with seeded, reproducible fault injection."""
     rng = random.Random(config.seed)
     calls = {"n": 0}
 
@@ -207,7 +203,7 @@ if __name__ == "__main__":
     with open("capstone-data-toolkit/data/wealthpilot/intake/records.jsonl") as f:
         records = [__import__("json").loads(line) for line in f]
 
-    print("=== Lab A: observability ===")
+    print("=== Observability ===")
     session_id, app, dscr, bureau = run_traced_pipeline(records[2], "ASH-A-00000")
     print("session_id:", session_id)
     print("dscr:", dscr, "| bureau_score:", bureau.get("bureau_score") if bureau else None)
@@ -230,7 +226,7 @@ if __name__ == "__main__":
     print(f"\nuntraced avg: {untraced_ms:.3f} ms | traced avg: {traced_ms:.3f} ms | "
           f"overhead: {traced_ms - untraced_ms:+.3f} ms/call")
 
-    print("\n=== Lab B: reliability hardening on the real bureau lookup dependency ===")
+    print("\n=== Reliability hardening ===")
     baseline = run_baseline(BASE_CONFIG)
     print("baseline (no hardening):", baseline)
 
