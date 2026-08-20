@@ -9,7 +9,21 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for design, results, and limitations.
 pip3 install -r requirements.txt
 ```
 
-Add `.env` with `GROQ_API_KEY` and `SUPERMEMORY_API_KEY`.
+Add `.env` with:
+
+```
+GROQ_API_KEY=
+SUPERMEMORY_API_KEY=
+GOOGLE_API_KEY=
+QDRANT_URL=
+QDRANT_API_KEY=
+LANGFUSE_PUBLIC_KEY=
+LANGFUSE_SECRET_KEY=
+LANGFUSE_BASE_URL=https://cloud.langfuse.com
+NGROK_AUTHTOKEN=
+```
+
+`NGROK_AUTHTOKEN` is optional — `m8.py` skips the public tunnel and just runs locally without it.
 
 ## Run
 
