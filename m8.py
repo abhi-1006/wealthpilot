@@ -31,9 +31,9 @@ from pydantic import BaseModel, Field, field_validator
 
 from m4 import CHUNKS, EVAL_PATH, answer, cited_source_titles, retrieve
 
-# ---------------------------------------------------------------------------
+# 
 # Layer 1 (original): guardrails independent of answer QUALITY
-# ---------------------------------------------------------------------------
+# 
 
 class DecisionResponse(BaseModel):
     """Schema every answer must satisfy before it's allowed out of the pipeline."""
@@ -160,12 +160,12 @@ def run_full_eval(judge_sample_size: int = 5):
     return results
 
 
-# ---------------------------------------------------------------------------
+# 
 # Layer 2: lab-faithful architecture -- planner / tools / retrieval /
 # final-answer, scored by deterministic checks + Ragas + DeepEval + TruLens,
 # orchestrated through langfuse.run_experiment(). Domain: WealthPilot itself,
 # not the lab's Library Assistant example.
-# ---------------------------------------------------------------------------
+# 
 
 import sys
 import types as _types
@@ -702,9 +702,9 @@ def run_langfuse_experiment():
     return result
 
 
-# ---------------------------------------------------------------------------
+# 
 # FastAPI deployment package
-# ---------------------------------------------------------------------------
+# 
 
 class DecisionRequest(BaseModel):
     question: str = Field(min_length=1, max_length=500)

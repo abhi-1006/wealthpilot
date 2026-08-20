@@ -38,9 +38,9 @@ CHUNK_OVERLAP = 120
 COLLECTION = "wealthpilot_m4"
 
 
-# ---------------------------------------------------------------------------
+# 
 # Ingest, chunk, embed (Gemini, disk-cached), index (Qdrant)
-# ---------------------------------------------------------------------------
+# 
 
 def load_and_chunk_corpus() -> list[dict]:
     """One dict per chunk: cid, text, source (doc slug)."""
@@ -172,9 +172,9 @@ def retrieve(query: str, k: int = 5, pool: int = 10) -> list[int]:
     return rerank(query, hybrid_search(query, k=pool, pool=pool), k=k)
 
 
-# ---------------------------------------------------------------------------
+# 
 # Grounded, cited answers + prompt-injection defense
-# ---------------------------------------------------------------------------
+# 
 
 def build_answer_prompt(query: str, chunk_ids: list[int]) -> tuple[str, str]:
     context = "\n".join(
@@ -205,12 +205,12 @@ def answer(query: str, k: int = 5) -> str:
     return resp.choices[0].message.content.strip()
 
 
-# ---------------------------------------------------------------------------
+# 
 # Retrieval evaluation: precision@k / recall@k / MRR against exact
 # identifiers actually present in the corpus (same harness as the lab's
 # Lab C, applied to our own credit-policy documents instead of the lab's
 # NIST/Apple/USGS sample corpus).
-# ---------------------------------------------------------------------------
+# 
 
 RETRIEVAL_GOLDEN = [
     {"q": "What is reason code RC-001 for?", "answer_contains": "RC-001"},
@@ -299,9 +299,9 @@ def run_retrieval_eval() -> None:
         print("  (LANGFUSE_PUBLIC_KEY/SECRET_KEY not set -- metrics printed above only, not logged.)")
 
 
-# ---------------------------------------------------------------------------
+# 
 # Answer-level guardrail eval: must_cite / must_not_contain, real numbers
-# ---------------------------------------------------------------------------
+# 
 
 # Source slug -> full document title, read once from each corpus file's H1
 # heading. The model cites answers with bracket markers ([id] or the

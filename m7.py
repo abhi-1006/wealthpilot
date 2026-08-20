@@ -36,9 +36,9 @@ print("Langfuse configured:", LANGFUSE_CONFIGURED,
 from m1 import parse_invoice
 from m2 import credit_bureau_lookup, dscr_calculator, interest_calculator, run_risk_agent
 
-# ---------------------------------------------------------------------------
+# 
 # Observability
-# ---------------------------------------------------------------------------
+# 
 
 RUN_EVENTS: list[dict] = []
 
@@ -105,9 +105,9 @@ def build_dashboard(events: list[dict]) -> pd.DataFrame:
     return agg.sort_values("total_ms", ascending=False).reset_index(drop=True)
 
 
-# ---------------------------------------------------------------------------
+# 
 # Reliability hardening, applied to the real bureau lookup dependency
-# ---------------------------------------------------------------------------
+# 
 
 class FaultConfig:
     def __init__(self, seed, fail_rate=0.0, malformed_rate=0.0):
@@ -203,12 +203,12 @@ class CircuitBreaker:
             return result
 
 
-# ---------------------------------------------------------------------------
+# 
 # Evaluation -- catching hallucination, extraction misses, and tool failures
 # systematically. Three failure modes DeepEval's HallucinationMetric,
 # retrieval-recall math, and ToolCorrectnessMetric each catch. Judge model is
 # Groq (via LiteLLM), same account already used everywhere else.
-# ---------------------------------------------------------------------------
+# 
 
 from deepeval.metrics import HallucinationMetric, ToolCorrectnessMetric
 from deepeval.models import LiteLLMModel
