@@ -45,10 +45,10 @@ def token_estimate(text: str) -> int:
     return max(1, len(text) // 4)
 
 
-# ---------------------------------------------------------------------------
+
 # Summarization -- lossy, so we TEST that a planted fact survives compression
 # rather than assuming it does.
-# ---------------------------------------------------------------------------
+
 
 RECENT_KEEP = 4
 TOKEN_BUDGET = 220

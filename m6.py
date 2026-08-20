@@ -43,9 +43,9 @@ class CommitteeState(TypedDict):
     log: Annotated[list[str], add]   # audit: accumulates
 
 
-# ---------------------------------------------------------------------------
+# 
 # Write scopes, enforced
-# ---------------------------------------------------------------------------
+# 
 
 AGENT_SCOPES = {
     "intake_risk": {"application", "dscr", "bureau_report"},
@@ -80,9 +80,9 @@ def scoped(role: str):
     return decorate
 
 
-# ---------------------------------------------------------------------------
+# 
 # MCP client -- one connection, shared by the intake_risk node
-# ---------------------------------------------------------------------------
+# 
 
 mcp_client = MultiServerMCPClient({
     "wealthpilot": {"transport": "stdio", "command": sys.executable, "args": [SERVER_PATH]},
@@ -100,9 +100,9 @@ def parse_tool_result(raw):
     return raw
 
 
-# ---------------------------------------------------------------------------
+# 
 # Nodes
-# ---------------------------------------------------------------------------
+# 
 
 @scoped("intake_risk")
 async def intake_risk_node(state: CommitteeState) -> dict:
@@ -181,9 +181,9 @@ def escalate_node(state: CommitteeState) -> dict:
             "log": [f"ESCALATED after {state['revision_count']} revision(s)"]}
 
 
-# ---------------------------------------------------------------------------
+# 
 # Supervisor as a pure function, wrapped by a legal-routes guard
-# ---------------------------------------------------------------------------
+# 
 
 def supervisor_policy(state: CommitteeState) -> str:
     if state.get("application") is None:
@@ -234,9 +234,9 @@ def supervisor_node(state: CommitteeState) -> dict:
     return {"next_agent": route, "log": [f"supervisor -> {route}"]}
 
 
-# ---------------------------------------------------------------------------
+# 
 # Build the graph
-# ---------------------------------------------------------------------------
+# 
 
 def build_team():
     g = StateGraph(CommitteeState)

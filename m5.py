@@ -46,10 +46,10 @@ class UnderwritingState(TypedDict, total=False):
     audit_log: Annotated[list[str], add]   # AUDIT field: full history. Reducer, accumulates.
 
 
-# ---------------------------------------------------------------------------
+# 
 # Nodes -- deterministic, testable as plain functions, no model call except
 # inside intake (M1's own extract/repair loop already deterministic in shape)
-# ---------------------------------------------------------------------------
+# 
 
 def intake_node(state: UnderwritingState) -> dict:
     app, errors = parse_invoice(state["raw_record"])
