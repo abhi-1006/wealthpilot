@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 m4.py)"
+      "Bash(python3 m4.py)",
+      "Bash(pip3 install *)"
     ]
   }
 }
