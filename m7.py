@@ -1,7 +1,7 @@
 """M7 -- Observability + reliability hardening.
 
 Tracing: a traced() span decorator around real pipeline nodes, tagged with a
-session_id, a per-agent cost/latency dashboard, and a traced-vs-untraced
+session_id, a per-agent latency dashboard, and a traced-vs-untraced
 overhead measurement. Runs correctly with or without Langfuse keys set.
 
 Reliability: a seeded fault-injection harness around the bureau-lookup
