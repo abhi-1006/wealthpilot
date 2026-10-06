@@ -2,8 +2,9 @@
 
 Typed state with a control/audit field split, deterministic routing as a
 pure function, a bounded revision loop, a real human-approval gate via
-interrupt(), and a durable SqliteSaver checkpointer that survives an actual
-process restart. The irreversible finalize step sits in its own node,
+interrupt(), and a durable SqliteSaver checkpointer, verified by resuming a
+paused run from disk with a fresh connection and graph object (a simulated
+restart within one process). The irreversible finalize step sits in its own node,
 downstream of the pause.
 
 Graph shape:
