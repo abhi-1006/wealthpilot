@@ -1,0 +1,16 @@
+# Upload only what the Docker build needs. Everything else (.env, the
+# screen recording, presentation/, caches) stays on this machine.
+/*
+!/Dockerfile
+!/requirements-serve.txt
+!/api.py
+!/m1.py
+!/m2.py
+!/m4.py
+!/frontend.html
+!/capstone-data-toolkit
+/capstone-data-toolkit/*
+!/capstone-data-toolkit/data
+/capstone-data-toolkit/data/*
+!/capstone-data-toolkit/data/wealthpilot
+/capstone-data-toolkit/data/wealthpilot/corpus/pdf

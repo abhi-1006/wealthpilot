@@ -35,7 +35,6 @@ EVAL_PATH = "capstone-data-toolkit/data/wealthpilot/eval/golden_set.json"
 
 CHUNK_SIZE = 900
 CHUNK_OVERLAP = 120
-COLLECTION = "wealthpilot_m4"
 
 
 # 
@@ -63,6 +62,10 @@ def load_and_chunk_corpus() -> list[dict]:
 print("Loading corpus and chunking...")
 CHUNKS = load_and_chunk_corpus()
 print(f"  {len(CHUNKS)} chunks from {len(set(c['source'] for c in CHUNKS))} documents.")
+
+# One index per corpus version: the name carries a hash of every chunk.
+_corpus_hash = hashlib.sha1("".join(c["source"] + c["text"] for c in CHUNKS).encode("utf-8")).hexdigest()[:10]
+COLLECTION = f"wealthpilot_m4_{_corpus_hash}"
 
 _embedder = GoogleGenerativeAIEmbeddings(model="gemini-embedding-001")  # reads GOOGLE_API_KEY
 
@@ -119,18 +122,32 @@ def embed_query(text: str) -> list[float]:
     return v
 
 
-print("Embedding corpus (Gemini, disk-cached)...")
-_vecs = embed_texts([c["text"] for c in CHUNKS])
-EMBED_DIM = len(_vecs[0])
-
 _qdrant = QdrantClient(url=os.getenv("QDRANT_URL"), api_key=os.getenv("QDRANT_API_KEY"))
-if _qdrant.collection_exists(COLLECTION):
-    _qdrant.delete_collection(COLLECTION)
-_qdrant.create_collection(COLLECTION, vectors_config=VectorParams(size=EMBED_DIM, distance=Distance.COSINE))
-_qdrant.upsert(COLLECTION, points=[
-    PointStruct(id=c["cid"], vector=_vecs[c["cid"]], payload=c) for c in CHUNKS
-])
-print(f"Indexed {len(CHUNKS)} chunks into Qdrant (dim={EMBED_DIM}).")
+
+
+def ensure_index() -> None:
+    """Build the Qdrant index only when it's missing or incomplete.
+
+    The collection name includes a hash of the corpus, so a changed corpus
+    gets a fresh index, and an unchanged one is reused across restarts (no
+    re-embedding, and no window where a running server sees an empty index).
+    """
+    if _qdrant.collection_exists(COLLECTION):
+        if _qdrant.count(COLLECTION, exact=True).count == len(CHUNKS):
+            print(f"Reusing Qdrant index {COLLECTION} ({len(CHUNKS)} chunks).")
+            return
+        _qdrant.delete_collection(COLLECTION)  # partial build from an interrupted run
+
+    print("Embedding corpus (Gemini, disk-cached)...")
+    vecs = embed_texts([c["text"] for c in CHUNKS])
+    _qdrant.create_collection(COLLECTION, vectors_config=VectorParams(size=len(vecs[0]), distance=Distance.COSINE))
+    _qdrant.upsert(COLLECTION, points=[
+        PointStruct(id=c["cid"], vector=vecs[c["cid"]], payload=c) for c in CHUNKS
+    ])
+    print(f"Indexed {len(CHUNKS)} chunks into Qdrant {COLLECTION} (dim={len(vecs[0])}).")
+
+
+ensure_index()
 
 _bm25_corpus = [c["text"].lower().split() for c in CHUNKS]
 _bm25 = BM25Okapi(_bm25_corpus)

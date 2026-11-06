@@ -1,0 +1,15 @@
+# Only what api.py needs to serve the demo. The full requirements.txt adds
+# the milestone and evaluation libraries (LangGraph, Ragas, DeepEval, ...).
+# torch is installed separately in the Dockerfile as the smaller CPU-only build.
+fastapi==0.135.2
+uvicorn==0.42.0
+pydantic==2.13.4
+python-dotenv==1.2.2
+litellm==1.93.0
+groq==1.5.0
+google-genai==2.19.0
+langchain-google-genai==4.3.4
+qdrant-client==1.19.0
+sentence-transformers==6.0.0
+rank-bm25==0.2.2
+numpy==2.4.3

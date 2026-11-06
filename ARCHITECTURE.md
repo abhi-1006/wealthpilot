@@ -26,7 +26,8 @@ both are compliance failures, not just quality issues, in a regulated-lending do
 | `m6.py` + `wealthpilot_mcp_server.py` | M6 | Multi-agent underwriting committee: an LLM Analyst writes the memo; the Risk Reviewer and Compliance Reviewer are deterministic code checks (judgment from the model, facts from code). Enforced per-agent write-scopes, a supervisor constrained to a `legal_routes()` guard, a bounded revision loop, and an escalation path. The intake step fetches bureau data through a real MCP server. | A critic that can edit the producer's output stops being an independent check — which the enforced write-scopes prevent. |
 | `m7.py` | M7 | Observability (Langfuse tracing, per-agent latency dashboard, honestly-measured tracing overhead) and reliability hardening (retry with backoff and a fallback path, plus a separately tested circuit breaker) applied to the bureau-lookup function under seeded fault injection, plus systematic evaluation: DeepEval's `HallucinationMetric` on the risk agent's summary against its real tool-result context, a retrieval-recall check against M4's golden set, and `ToolCorrectnessMetric` against the fault-injection harness. | Without hardening, a flaky bureau call crashes the step that depends on it instead of degrading gracefully; without tracing, a bad decision can't be traced back to which step produced it; without the hallucination check, a fluent but ungrounded summary goes undetected. |
 | `m8.py` | M8 | Two layers. **Layer 1**: the 20-item policy-RAG golden evaluation (deterministic scoring + a Groq-backed LLM judge) plus a guardrails layer (schema validation, injection detection, protected-attribute scan), served behind FastAPI `/decision`. **Layer 2**: a full planner → tool/retrieval/direct → final-answer assistant (WealthPilot's own domain, not the lab's example), scored by deterministic checks *and* three independent LLM judges (Ragas, DeepEval, TruLens) orchestrated through `langfuse.run_experiment()`, served behind `/chat`, with a public ngrok tunnel for Postman testing. | An unguardrailed endpoint could return a policy-noncompliant answer, or accept a prompt-injection attempt, with no safety net; relying on a single judge framework risks one framework's blind spot going unnoticed. |
-| `frontend.html` | Demo | A chat UI served by `m8.py`'s FastAPI app (`GET /`). Free-text questions route through `/chat` (tool computation, policy retrieval, or a direct reply, with source documents shown when retrieval was used); "underwrite application N" routes through `/underwrite/{index}` for the structured M1→M2 decision card. | A guardrail rejection (HTTP 422) not surfaced clearly in the UI could look like a silent failure instead of the safety layer working as intended. |
+| `api.py` | Deployment | The serving layer, split out of `m8.py` so the deployed server doesn't load the evaluation libraries: the planner-based assistant, the guardrails, per-visitor and global rate limits, and the FastAPI routes. `m8.py` imports it and evaluates it. Deployed on Google Cloud Run. | Without rate limits, anyone with the public link could use up the free-tier API quotas and take the demo down for everyone. |
+| `frontend.html` | Demo | A chat UI served by `api.py`'s FastAPI app (`GET /`). Free-text questions route through `/chat` (tool computation, policy retrieval, or a direct reply, with source documents shown when retrieval was used); "underwrite application N" routes through `/underwrite/{index}` for the structured M1→M2 decision card. | A guardrail rejection (HTTP 422) not surfaced clearly in the UI could look like a silent failure instead of the safety layer working as intended. |
 
 **How the pieces connect:** the milestones are separate, runnable components, not one chained
 pipeline. M5's workflow and M6's committee both reuse M1 parsing and M2 risk scoring. M4's
@@ -120,5 +121,16 @@ uses the same placeholder bureau record (score 374) rather than its own.
 - `m8.py`'s FastAPI service is proven both locally (`/health`, `/decision`, `/chat`, a real
   injection attempt correctly rejected with a 422) and publicly, via a live ngrok tunnel tested
   in a browser through the public URL.
+- **Live deployment (Nov 2026):** the demo runs on Google Cloud Run
+  (https://wealthpilot-972504936573.us-central1.run.app), built from `Dockerfile` with only the
+  serving dependencies and CPU-only PyTorch. The four API keys it needs come from Secret
+  Manager at runtime. It scales to zero when idle and is capped at one instance, which bounds
+  cost and keeps the in-memory rate limits accurate (5 requests a minute and 40 a day per
+  visitor, 300 a day overall). Sample-application results are cached, and prompt-injection
+  attempts are rejected before any model call.
+- The Qdrant index is built once per corpus version (the collection name includes a hash of
+  the corpus) and reused on every restart, instead of being rebuilt on each start.
+- Qdrant's free tier suspends clusters after a week without use, so a Cloud Scheduler job
+  sends the demo a policy question every three days.
 - Rollback: changes are tracked in git and can be reverted individually.
 
