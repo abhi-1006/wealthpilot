@@ -123,11 +123,20 @@ uses the same placeholder bureau record (score 374) rather than its own.
   in a browser through the public URL.
 - **Live deployment (Nov 2026):** the demo runs on Google Cloud Run
   (https://wealthpilot-972504936573.us-central1.run.app), built from `Dockerfile` with only the
-  serving dependencies and CPU-only PyTorch. The four API keys it needs come from Secret
+  serving dependencies and CPU-only PyTorch. The six API keys it needs come from Secret
   Manager at runtime. It scales to zero when idle and is capped at one instance, which bounds
   cost and keeps the in-memory rate limits accurate (5 requests a minute and 40 a day per
   visitor, 300 a day overall). Sample-application results are cached, and prompt-injection
   attempts are rejected before any model call.
+- Per-request tracing: every assistant (`/chat`) request becomes one Langfuse trace. It holds
+  the planner and final-answer Gemini calls (input and output tokens, latency, tokens per
+  second, the exact model version the API reports) and the policy-retrieval step. Costs are
+  estimated from Google's paid-tier list prices; the demo runs on the free tier, so actual
+  spend is $0. A typical policy question uses about 1,000 input and 115 output tokens,
+  costs about $0.0006 at list price, and takes about 5 seconds. Part of that is deliberate
+  pacing: Gemini calls start at least 4.5 seconds apart to stay under the free tier's 15
+  requests a minute, and the trace shows how long each request waited. The structured
+  underwriting (`/underwrite`) and `/decision` paths call Groq and are not traced yet.
 - The Qdrant index is built once per corpus version (the collection name includes a hash of
   the corpus) and reused on every restart, instead of being rebuilt on each start.
 - Qdrant's free tier suspends clusters after a week without use, so a Cloud Scheduler job

@@ -26,6 +26,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse
 from google import genai
 from google.genai import types as genai_types
+from langfuse import Langfuse
 from pydantic import BaseModel, Field, field_validator
 
 from m2 import dscr_calculator, interest_calculator
@@ -152,8 +153,41 @@ def _suggested_wait(exc: Exception, fallback: float) -> float:
     return float(m.group(1)) + 1.0 if m else fallback
 
 
+#
+# Tracing: tokens, latency and estimated cost for every model call
+#
+
+# Turned on only when Langfuse keys are set; without them every call below is a no-op.
+langfuse = Langfuse(
+    base_url=os.getenv("LANGFUSE_BASE_URL") or os.getenv("LANGFUSE_HOST"),
+    tracing_enabled=bool(os.getenv("LANGFUSE_PUBLIC_KEY") and os.getenv("LANGFUSE_SECRET_KEY")),
+)
+
+# USD per 1M tokens, Gemini API Standard paid tier (ai.google.dev pricing, checked
+# 2026-11-06). The demo runs on the free tier, so these are what each call *would*
+# cost on a paid plan, not actual spend. MODEL_NAME is a moving "latest" alias, so
+# the price is looked up from the model version each response reports.
+PRICES_PER_1M = {
+    "gemini-3.5-flash-lite": (0.30, 2.50),
+    "gemini-3.1-flash-lite": (0.25, 1.50),
+    "gemini-2.5-flash-lite": (0.10, 0.40),
+}
+
+
+def estimate_cost(model_version: str, input_tokens: int, output_tokens: int) -> Optional[dict]:
+    """Estimated USD cost of one call, or None for a model missing from PRICES_PER_1M."""
+    for prefix in sorted(PRICES_PER_1M, key=len, reverse=True):
+        if (model_version or "").startswith(prefix):
+            in_price, out_price = PRICES_PER_1M[prefix]
+            cost_in = input_tokens * in_price / 1_000_000
+            cost_out = output_tokens * out_price / 1_000_000
+            return {"input": cost_in, "output": cost_out, "total": cost_in + cost_out}
+    return None
+
+
 def call_llm(prompt: str, system: Optional[str] = None,
-             json_schema: Optional[dict] = None, max_retries: int = 4) -> str:
+             json_schema: Optional[dict] = None, max_retries: int = 4,
+             name: str = "gemini-call") -> str:
     config_kwargs = {"temperature": 0.2}
     if system:
         config_kwargs["system_instruction"] = system
@@ -162,19 +196,44 @@ def call_llm(prompt: str, system: Optional[str] = None,
         config_kwargs["response_schema"] = json_schema
 
     for attempt in range(max_retries):
-        _pace()
-        try:
-            resp = genai_client.models.generate_content(
-                model=MODEL_NAME, contents=prompt,
-                config=genai_types.GenerateContentConfig(**config_kwargs),
-            )
-            return resp.text
-        except Exception as e:
-            if attempt == max_retries - 1:
-                raise
-            wait = _suggested_wait(e, fallback=(2 ** attempt) + random.random())
-            print(f"  [retry {attempt+1}/{max_retries}] waiting {wait:.1f}s: {e}")
-            time.sleep(wait)
+        _pace()  # waiting for the rate-limit gate happens outside the traced span
+        error = None
+        with langfuse.start_as_current_observation(
+            name=name, as_type="generation", model=MODEL_NAME, input=prompt,
+            model_parameters={"temperature": 0.2}, metadata={"attempt": attempt + 1},
+        ) as gen:
+            try:
+                started = time.perf_counter()
+                resp = genai_client.models.generate_content(
+                    model=MODEL_NAME, contents=prompt,
+                    config=genai_types.GenerateContentConfig(**config_kwargs),
+                )
+                seconds = time.perf_counter() - started
+            except Exception as e:
+                gen.update(level="ERROR", status_message=str(e)[:500])
+                error = e
+            else:
+                usage = resp.usage_metadata
+                input_tokens = (usage.prompt_token_count or 0) if usage else 0
+                # Gemini bills "thinking" tokens as output tokens.
+                output_tokens = ((usage.candidates_token_count or 0) + (usage.thoughts_token_count or 0)) if usage else 0
+                gen.update(
+                    model=resp.model_version or MODEL_NAME,
+                    output=resp.text,
+                    usage_details={"input": input_tokens, "output": output_tokens},
+                    cost_details=estimate_cost(resp.model_version, input_tokens, output_tokens),
+                    metadata={
+                        "tokens_per_second": round(output_tokens / seconds, 1) if seconds > 0 else None,
+                        "cost_basis": "estimated at paid-tier list price; the demo runs on the free tier",
+                    },
+                )
+                return resp.text
+
+        if attempt == max_retries - 1:
+            raise error
+        wait = _suggested_wait(error, fallback=(2 ** attempt) + random.random())
+        print(f"  [retry {attempt+1}/{max_retries}] waiting {wait:.1f}s: {error}")
+        time.sleep(wait)
 
 
 #
@@ -215,7 +274,7 @@ Given a user query, decide ONE route:
 
 
 def plan(query: str) -> dict:
-    raw = call_llm(query, system=PLANNER_SYSTEM, json_schema=PLANNER_SCHEMA)
+    raw = call_llm(query, system=PLANNER_SYSTEM, json_schema=PLANNER_SCHEMA, name="planner")
     return json.loads(raw)
 
 
@@ -226,7 +285,7 @@ using ONLY the tool result or retrieved policy text given to you as context. Be 
 
 def synthesize_answer(query: str, context: str) -> str:
     prompt = f"User question: {query}\n\nContext:\n{context}\n\nAnswer:"
-    return call_llm(prompt, system=ANSWER_SYSTEM)
+    return call_llm(prompt, system=ANSWER_SYSTEM, name="final-answer")
 
 
 def run_agent(query: str) -> dict:
@@ -242,15 +301,19 @@ def run_agent(query: str) -> dict:
         if tool_name in WP_TOOLS:
             accepted = set(inspect.signature(WP_TOOLS[tool_name]).parameters)
             call_args = {k: v for k, v in tool_args.items() if k in accepted and v not in (None, "")}
-            try:
-                tool_result = WP_TOOLS[tool_name](**call_args)
-            except TypeError as e:
-                tool_result = {"error": f"bad arguments from planner: {e}"}
+            with langfuse.start_as_current_observation(name=tool_name, as_type="tool", input=call_args) as tool_span:
+                try:
+                    tool_result = WP_TOOLS[tool_name](**call_args)
+                except TypeError as e:
+                    tool_result = {"error": f"bad arguments from planner: {e}"}
+                tool_span.update(output=tool_result)
         context = json.dumps(tool_result, indent=2) if not isinstance(tool_result, (int, float)) \
             else json.dumps({"result": tool_result})
 
     elif route == "retrieval":
-        retrieved_ids = retrieve(query, k=3)
+        with langfuse.start_as_current_observation(name="policy-retrieval", as_type="retriever", input=query) as retriever:
+            retrieved_ids = retrieve(query, k=3)
+            retriever.update(output=[CHUNKS[cid]["source"] for cid in retrieved_ids])
         context = "\n\n".join(CHUNKS[cid]["text"] for cid in retrieved_ids)
 
     else:
@@ -438,8 +501,19 @@ def chat(req: ChatRequest, request: Request):
         raise HTTPException(status_code=422, detail={"message": "guardrail check failed",
                                                      "flags": ["prompt_injection_in_user_input"]})
     limiter.check(visitor_id(request))
-    trace = run_agent(req.query)
-    guard = assistant_guardrail_check(trace)
+    try:
+        # One Langfuse trace per request: planner, tool or retrieval step, and final
+        # answer appear as child observations with their own tokens, latency and cost.
+        with langfuse.start_as_current_observation(name="chat-request", as_type="agent", input={"query": req.query}) as span:
+            trace = run_agent(req.query)
+            guard = assistant_guardrail_check(trace)
+            span.update(output={"route": trace["route"], "final_answer": trace["final_answer"],
+                                "sources": trace["retrieved_doc_ids"]},
+                        metadata={"guardrail_passed": guard["passed"], "guardrail_flags": guard["flags"]})
+    finally:
+        # Cloud Run only gives the container CPU while a request is open, so send the
+        # trace now instead of leaving it to a background thread.
+        langfuse.flush()
     if not guard["passed"]:
         raise HTTPException(status_code=422,
                              detail={"message": "guardrail check failed", "flags": guard["flags"]})

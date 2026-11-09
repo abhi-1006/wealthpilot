@@ -22,11 +22,11 @@ QDRANT_URL=
 QDRANT_API_KEY=
 LANGFUSE_PUBLIC_KEY=
 LANGFUSE_SECRET_KEY=
-LANGFUSE_BASE_URL=https://cloud.langfuse.com
+LANGFUSE_BASE_URL=https://us.cloud.langfuse.com
 NGROK_AUTHTOKEN=
 ```
 
-`NGROK_AUTHTOKEN` is optional — `m8.py` skips the public tunnel and just runs locally without it.
+`NGROK_AUTHTOKEN` is optional — `m8.py` skips the public tunnel and just runs locally without it. Use the `LANGFUSE_BASE_URL` of the region where your Langfuse keys were created (`https://cloud.langfuse.com` for EU). Without Langfuse keys, tracing is switched off and everything else still runs.
 
 ## Run
 
@@ -56,8 +56,11 @@ The demo runs on Google Cloud Run. `Dockerfile` builds a slim image from `requir
 ```bash
 gcloud run deploy wealthpilot --source . --region us-central1 --allow-unauthenticated \
   --memory 2Gi --cpu 1 --min-instances 0 --max-instances 1 --concurrency 4 --cpu-boost --timeout 300 \
-  --set-secrets "GROQ_API_KEY=GROQ_API_KEY:latest,GOOGLE_API_KEY=GOOGLE_API_KEY:latest,QDRANT_URL=QDRANT_URL:latest,QDRANT_API_KEY=QDRANT_API_KEY:latest"
+  --set-env-vars "LANGFUSE_BASE_URL=https://us.cloud.langfuse.com" \
+  --set-secrets "GROQ_API_KEY=GROQ_API_KEY:latest,GOOGLE_API_KEY=GOOGLE_API_KEY:latest,QDRANT_URL=QDRANT_URL:latest,QDRANT_API_KEY=QDRANT_API_KEY:latest,LANGFUSE_PUBLIC_KEY=LANGFUSE_PUBLIC_KEY:latest,LANGFUSE_SECRET_KEY=LANGFUSE_SECRET_KEY:latest"
 ```
+
+Each assistant (`/chat`) request is traced in Langfuse: the planner and final-answer model calls with token counts, latency, tokens per second and estimated cost, plus the policy-retrieval step.
 
 ## Layout
 
